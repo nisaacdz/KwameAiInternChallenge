@@ -1,7 +1,7 @@
 let fs = require('fs')
 const content = fs.readFileSync("sample.txt", 'utf8');
 
-console.log(get_division(content));
+console.log(getJudges(content));
 
 function get_date(s) {
     let begin = indexOf(s, 'Date', 0, 200);
@@ -90,4 +90,22 @@ function get_division(s) {
     let vals = res.split(regex);
 
     return [vals[0], vals[vals.length - 1], "GHANA"];
+}
+
+function getJudges(s) {
+    let begin = indexOf(s, 'Before', 0);
+    if (s[begin + 6] == ':') {
+        begin = begin + 7;
+    } else {
+        begin = begin + 6;
+    }
+
+    let str = s.substring(begin, Math.min(s.length, begin + 300));
+    const regex = /^(\s*[A-Z]+[ ,.]*)+/;
+    const matches = str.match(regex);
+
+    if (matches[matches.length - 1].length == 1) {
+        matches.pop();
+    }
+    return matches;
 }
