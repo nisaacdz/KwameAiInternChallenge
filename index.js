@@ -1,7 +1,7 @@
 let fs = require('fs')
 const content = fs.readFileSync("sample.txt", 'utf8');
 
-console.log(getCasesReferredTo(content));
+console.log(getParties(content));
 
 function get_date(s) {
     let begin = indexOf(s, 'Date', 0, 200);
@@ -54,3 +54,11 @@ function getCasesReferredTo(s) {
     return s.match(regex);
 }
 
+function getParties(s) {
+    const regex = /([a-zA-Z\s.]+)\s(v|vs|v.)\s([a-zA-Z\s.]+)/;
+    const matches = regex.exec(s)[0].trim().split(regex);
+
+    let plaintiff = matches[1];
+    let defendant = matches[3];
+    return [plaintiff, defendant];    
+}
