@@ -1,12 +1,10 @@
 let fs = require('fs')
 const content = fs.readFileSync("sample.txt", 'utf8');
 
-console.log(get_date(content));
+console.log(getCasesReferredTo(content));
 
 function get_date(s) {
     let begin = indexOf(s, 'Date', 0, 200);
-    console.log(begin);
-
 
     if (s[begin + 4] == ':') {
         begin = begin + 5;
@@ -30,13 +28,29 @@ function indexOf(s, target, begin = 0, end = s.length) {
     end = Math.min(end, s.length);
 
     for (let i = begin; i <= end - target.length; i++) {
-        let subs = s.substring(i, i + target.length);
-        console.log(subs);
-        if (subs == target) {
+        if (s.substring(i, i + target.length) == target) {
             return i;
         }
     }
 
     return -1;
+}
+
+
+function getCasesReferredTo(s) {
+    let begin = indexOf(s, 'CASES REFERRED TO');
+    
+    if (s[begin + 4] == ':') {
+        begin = begin + 5;
+    } else {
+        begin = begin + 4;
+    }
+
+    let max_limit = s.length;
+    let cur = begin;
+
+    const regex = /(?<=^\(\d+\)\s).*?(?=\s*\(\d+\)\s|\s*$)/gm;
+
+    return s.match(regex);
 }
 
