@@ -1,7 +1,7 @@
 let fs = require('fs')
 const content = fs.readFileSync("sample.txt", 'utf8');
 
-console.log(getParties(content));
+console.log(get_division(content));
 
 function get_date(s) {
     let begin = indexOf(s, 'Date', 0, 200);
@@ -61,4 +61,33 @@ function getParties(s) {
     let plaintiff = matches[1];
     let defendant = matches[3];
     return [plaintiff, defendant];    
+}
+
+
+function get_division(s) {
+    let begin = indexOf(s, 'Division', 0, 300);
+
+    if (s[begin + 8] == ':') {
+        begin = begin + 9;
+    } else {
+        begin = begin + 8;
+    }
+
+    let max_limit = begin + 150;
+    let cur = begin;
+    while (cur < max_limit) {
+        if (s.substring(cur, cur + 4) == 'Date') {
+            max_limit = cur - 1;
+        }
+        cur = cur + 1;
+    }
+    let regex = /[,;]/;
+
+    let res = s.substring(begin, max_limit).trim()
+
+    console.log(res);
+    
+    let vals = res.split(regex);
+
+    return [vals[0], vals[vals.length - 1], "GHANA"];
 }
