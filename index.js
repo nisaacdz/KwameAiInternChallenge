@@ -39,7 +39,7 @@ function indexOf(s, target, begin = 0, end = s.length) {
 
 function getCasesReferredTo(s) {
     let begin = indexOf(s, 'CASES REFERRED TO');
-    
+
     if (s[begin + 4] == ':') {
         begin = begin + 5;
     } else {
@@ -60,7 +60,7 @@ function getParties(s) {
 
     let plaintiff = matches[1];
     let defendant = matches[3];
-    return [plaintiff, defendant];    
+    return [plaintiff, defendant];
 }
 
 
@@ -86,26 +86,52 @@ function get_division(s) {
     let res = s.substring(begin, max_limit).trim()
 
     console.log(res);
-    
+
     let vals = res.split(regex);
 
     return [vals[0], vals[vals.length - 1], "GHANA"];
 }
 
+
 function getJudges(s) {
-    let begin = indexOf(s, 'Before', 0);
+    const cm = /[\s,.]+/;
+    const cap = /[A-Z]/;
+  
+    let begin = s.indexOf('Before', 0);
     if (s[begin + 6] == ':') {
-        begin = begin + 7;
+      begin = begin + 7;
     } else {
-        begin = begin + 6;
+      begin = begin + 6;
     }
-
-    let str = s.substring(begin, Math.min(s.length, begin + 300));
-    const regex = /^(\s*[A-Z]+[ ,.]*)+/;
-    const matches = str.match(regex);
-
-    if (matches[matches.length - 1].length == 1) {
-        matches.pop();
+  
+    let end = Math.min(s.length, begin + 400);
+    let cur = begin;
+  
+    while (cur < end) {
+      while (cur < end && s[cur].match(cm)) {
+        cur += 1;
+      }
+      let curWord = cur;
+      while (cur < end && s[cur].match(cap)) {
+        cur += 1;
+      }
+  
+      if (cur < end && !s[cur].match(cm)) {
+        end = curWord;
+      }
     }
-    return matches;
-}
+  
+    let res = s.substring(begin, end);
+  
+    const items = res.split(/[\s,]+AND[\s,]+|[,]/);
+  
+    const judges = [];
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i].trim();
+      if (item.length > 0) {
+        judges.push(item);
+      }
+    }
+    return judges;
+  }
+  
