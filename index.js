@@ -1,15 +1,13 @@
 let fs = require('fs')
 const content = fs.readFileSync("sample.txt", 'utf8');
 
-console.log(getJudges(content));
+console.log(getParties(content));
 
-function get_date(s) {
-    let begin = indexOf(s, 'Date', 0, 200);
+function getDate(s) {
+    let begin = indexOf(s, 'Date', 'Date', 0, 200);
 
-    if (s[begin + 4] == ':') {
-        begin = begin + 5;
-    } else {
-        begin = begin + 4;
+    if (s[begin] == ':') {
+        begin = begin + 1;
     }
 
     let max_limit = begin + 50;
@@ -24,11 +22,17 @@ function get_date(s) {
     return s.substring(begin, max_limit).trim()
 }
 
-function indexOf(s, target, begin = 0, end = s.length) {
+function indexOf(s, target, other = target, begin = 0, end = s.length) {
     end = Math.min(end, s.length);
+    let l1 = target.length;
+    let l2 = other.length;
 
     for (let i = begin; i <= end - target.length; i++) {
-        if (s.substring(i, i + target.length) == target) {
+        if (i - l1 >= begin && s.substring(i - l1, i) == target) {
+            return i;
+        }
+
+        if (i - l2 >= begin && s.substring(i - l2, i) == other) {
             return i;
         }
     }
@@ -40,10 +44,8 @@ function indexOf(s, target, begin = 0, end = s.length) {
 function getCasesReferredTo(s) {
     let begin = indexOf(s, 'CASES REFERRED TO');
 
-    if (s[begin + 4] == ':') {
-        begin = begin + 5;
-    } else {
-        begin = begin + 4;
+    if (s[begin] == ':') {
+        begin = begin + 1;
     }
 
     let max_limit = s.length;
@@ -64,13 +66,11 @@ function getParties(s) {
 }
 
 
-function get_division(s) {
-    let begin = indexOf(s, 'Division', 0, 300);
+function getDivision(s) {
+    let begin = indexOf(s, 'Division');
 
-    if (s[begin + 8] == ':') {
-        begin = begin + 9;
-    } else {
-        begin = begin + 8;
+    if (s[begin] == ':') {
+        begin = begin + 1;
     }
 
     let max_limit = begin + 150;
@@ -85,8 +85,6 @@ function get_division(s) {
 
     let res = s.substring(begin, max_limit).trim()
 
-    console.log(res);
-
     let vals = res.split(regex);
 
     return [vals[0], vals[vals.length - 1], "GHANA"];
@@ -94,44 +92,41 @@ function get_division(s) {
 
 
 function getJudges(s) {
-    const cm = /[\s,.]+/;
+    const cm = /[\s,.()]+/;
     const cap = /[A-Z]/;
-  
-    let begin = s.indexOf('Before', 0);
-    if (s[begin + 6] == ':') {
-      begin = begin + 7;
-    } else {
-      begin = begin + 6;
+
+    let begin = indexOf(s, 'Before', 'CORAM', 0);
+    if (s[begin] == ':') {
+        begin = begin + 1;
     }
-  
+
     let end = Math.min(s.length, begin + 400);
     let cur = begin;
-  
+
     while (cur < end) {
-      while (cur < end && s[cur].match(cm)) {
-        cur += 1;
-      }
-      let curWord = cur;
-      while (cur < end && s[cur].match(cap)) {
-        cur += 1;
-      }
-  
-      if (cur < end && !s[cur].match(cm)) {
-        end = curWord;
-      }
+        while (cur < end && s[cur].match(cm)) {
+            cur += 1;
+        }
+        let curWord = cur;
+        while (cur < end && s[cur].match(cap)) {
+            cur += 1;
+        }
+
+        if (cur < end && !s[cur].match(cm)) {
+            end = curWord;
+        }
     }
-  
+
     let res = s.substring(begin, end);
-  
+
     const items = res.split(/[\s,]+AND[\s,]+|[,]/);
-  
+
     const judges = [];
     for (let i = 0; i < items.length; i++) {
-      const item = items[i].trim();
-      if (item.length > 0) {
-        judges.push(item);
-      }
+        const item = items[i].trim();
+        if (item.length > 0) {
+            judges.push(item);
+        }
     }
     return judges;
-  }
-  
+}
