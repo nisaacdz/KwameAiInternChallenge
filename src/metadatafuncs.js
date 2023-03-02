@@ -1,20 +1,19 @@
 function getDate(s) {
-    let begin = indexOf(s, 'Date', 'Date', 0, 200);
+    let str = s.substring(0, 200).toLowerCase();
+    let begin = str.indexOf('date');
 
-    if (s[begin] == ':') {
-        begin = begin + 1;
-    }
+    if (begin == -1) return "";
 
-    let max_limit = begin + 50;
-    let cur = begin;
-    while (cur < max_limit) {
-        if (s[cur] == '\n' || (s[cur] == '\s' && s[cur - 1] == '\s')) {
-            max_limit = cur;
-        }
-        cur = cur + 1;
-    }
+    begin += 4;
 
-    return s.substring(begin, max_limit).trim()
+    str = str.substring(begin);
+
+    const regex = /\s*[\s:;]*([a-z0-9\s]*)\s*\n/;
+
+    const matches = str.match(regex);
+    let result = matches[1];
+
+    return result.trim()
 }
 
 function indexOf(s, target, other = target, begin = 0, end = s.length) {
@@ -119,6 +118,7 @@ function getCasesReferredTo(s) {
 
     const regex = /\s+\(\d{1,2}\)\s+(.+)\n/g;
 
+    // Searches the next 3000 chars after encountering the keyword header
     let str = s.substring(index, index + 3000);
 
     const matches = str.match(regex);
