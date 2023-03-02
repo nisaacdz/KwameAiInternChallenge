@@ -48,7 +48,8 @@ function getJudgement(date) {
             y = val;
         } else {
             m = val;
-            switch (val.toLowerCase()) {
+            // the vlue of val will already be in lowercase
+            switch (val) {
                 case "january":
                     month = "01";
                     break;
