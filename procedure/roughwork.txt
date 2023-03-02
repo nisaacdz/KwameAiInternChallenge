@@ -6,12 +6,12 @@ Fields Required for meta_data.json
 05. court -- {name -- string, location -- {city -- string, country -- string} } -- marked
 06. counsel -- {Plaintiff/Appellant -- [string], Defendant/Respondent -- [string]}
 07. editorialNote -- string
-08. headNotes -- [string]
+08. headNotes -- [string] -- marked
 09. indices -- [string]
 10. judgement -- {data -- string, year -- number, month -- string,  day -- number} -- marked
 11. judges -- [string] -- marked
 12. lawReportsCitations -- [string]
-13. natureOfProceedings -- string
+13. natureOfProceedings -- string --marked
 14. mediaNeutralCitation -- string
 15. presidingJudge -- string
 16. partiesOfSuit -- {Plaintiff/Appellant -- [string], Defendant/Respondent -- [string]}

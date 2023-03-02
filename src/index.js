@@ -1,20 +1,27 @@
 let MetaData = require('./metadata');
 const funcs = require('./metadatafuncs');
+const Reader = require('./readfxns');
+const fs = require('fs');
 
-let fs = require('fs')
-const content = fs.readFileSync('../sample.txt', 'utf8');
+Reader.extractTextFromPDF('../procedure/PDF Cases/unscanned/tuffuor_v._attorney-general.pdf').then((text) => {
+    let obj = new MetaData();
+    fillMetaData(obj, text);
 
-let obj = new MetaData();
-fillMetaData(obj)
+    let jsonstr = JSON.stringify(obj, null, 4);
 
-let jsonstr = JSON.stringify(obj, null, 4);
-
-fs.writeFile('../output.json', jsonstr, (err) => {
-    if (err) throw err;
-    console.log('File has been updated with new content.');
+    fs.writeFile('../output.json', jsonstr, (err) => {
+        if (err) throw err;
+        console.log('File has been updated with new content.');
+    });
 });
 
-function fillMetaData(obj) {
+
+let obj = new MetaData();
+//fillMetaData(obj, content)
+
+// let jsonstr = JSON.stringify(obj, null, 4);
+
+function fillMetaData(obj, content) {
     let judges = funcs.getJudges(content);
     let parties = funcs.getParties(content);
 
@@ -23,6 +30,8 @@ function fillMetaData(obj) {
     let date = funcs.getDate(content);
     let src = funcs.getSource(content);
     let judgement = funcs.getJudgement(date);
+    let headnotes = funcs.getHeadNotes(content);
+    let proceedings = funcs.getNatureOfProceedings(content);
 
     obj.setPartiesOfSuit(parties[0], parties[1]);
     obj.setCasesReferredTo(refcases);
@@ -31,4 +40,6 @@ function fillMetaData(obj) {
     obj.setJudges(judges);
     obj.setTitle(parties[0] + " vs " + parties[1], parties[0] + " vs " + parties[1]);
     obj.setCourt(court);
+    obj.setHeadNotes(headnotes);
+    obj.setNatureOfProceedings(proceedings);
 }

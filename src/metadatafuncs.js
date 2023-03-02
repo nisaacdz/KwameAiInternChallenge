@@ -209,4 +209,36 @@ function getJudges(s) {
 }
 
 
-module.exports = { getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
+function getHeadNotes(s) {
+    let begin = indexOf(s, "HEADNOTES");
+
+    if (begin == -1) {
+        begin = indexOf(s, "Before") + 100;
+    }
+
+    begin = Math.min(begin, s.length);
+
+    end = Math.min(s.length, begin + 3000);
+
+
+    s = s.substring(begin, end);
+
+    const regex = /\[\d{1,2}\]\s*(.*)/g;
+
+    return s.match(regex);
+}
+
+function getNatureOfProceedings(s) {
+    let begin = s.indexOf('NATURE OF PROCEEDINGS');
+    if (begin != -1) {
+        s = s.substring(begin, begin + 1000);
+        const regex = /^\s*([^\n]+(\n[^\n]+)*)/;
+        const match = s.match(regex);
+        return match[1];
+    } else {
+        return "";
+    }
+}
+
+
+module.exports = { getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };

@@ -1,10 +1,21 @@
 TUFFUOR v. ATTORNEY-GENERAL
+
 [1980] GLR 637
-Division: COURT OF APPEAL, SITTING AS THE SUPREME
+
+Division:
+ 
+COURT OF APPEAL, SITTING AS THE SUPREME
 COURT; ACCRA
-Date: 23 SEPTEMBER 1980
-Before: SOWAH AND CHARLES CRABBE JJ.S.C., LASSEY
+
+Date:
+ 
+23 SEPTEMBER 1980
+
+Before:
+ 
+SOWAH AND CHARLES CRABBE JJ.S.C., LASSEY
 AND FRANCOIS JJ.A. AND AGYEPONG J.
+
 Courts—Court of Appeal—Jurisdiction—Constitutional issue—Court of Appeal sitting as Supreme Court
 under Constitution, 1979, Sched. I, s. 3—Section 3 permitting court to exercise functions as contained in
 articles 51, 117 and 118 only—Action for declaration that A deemed Chief Justice and president of
@@ -14,42 +25,140 @@ jurisdiction to declaration under article 118—Constitution, 1979, arts. 2, 51,
 3. 23 September 1980
 Constitutional law—Constitution—Enforcement—Right of all citizens to resist persons seeking abolition
 of constitutional order—Method of determining whether a person seeking to abolish constitutional order
-is to seek interpretation and enforcement of particular constitutional provision—A party seeking
+is
+ 
+to
+ 
+seek
+ 
+interpretation
+ 
+and
+ 
+enforcement
+ 
+of
+ 
+particular
+ 
+constitutional
+ 
+provision—A
+ 
+party
+ 
+seeking
 interpretation neither plaintiff nor defendant—Unnecessary to prove personal interest in matter on which
 interpretation and enforcement being sought—Claim on status of Chief Justice a constitutional right
 exercisable by all citizens under article I—Unnecessary to prove community of interest with any person
 or authority—Constitution, 1979, art. 1 (3).
-Constitutional law—Parliament—Privileges and immunities—Proceedings against Speaker—Courts
+Constitutional
+ 
+law—Parliament—Privileges
+ 
+and
+ 
+immunities—Proceedings
+ 
+against
+ 
+Speaker—Courts
 without jurisdiction to inquire into legality of acts of Parliament—Whether Speaker therefore immune
 from proceedings in court—Constitution, 1979, arts. 91 (1), 96, 97, 98, 99, 103 and 104.
 Constitutional law—Constitution—Estoppel—Effect—Action for interpretation of status of holder of
 office of Chief Justice on coming into force of Constitution—Submission by office-holder to procedure
-specified in article 127 (1)—Office-holder aware of different legal interpretations as to whether
+specified
+ 
+in
+ 
+article
+ 
+127
+ 
+(1)—Office-holder
+ 
+aware of different legal interpretations as to whether
 necessary to submit to procedure—Whether office-holder, privies and those claiming in same interest
 estopped from challenging validity of procedure being applied to office-holder—Constitution, 1979, art. 1
 (2).
-Constitutional law—Constitutional issue—Chief Justice—Status and procedure for
+Constitutional
+ 
+law—Constitutional
+ 
+issue—Chief
+ 
+Justice—Status
+ 
+and
+ 
+procedure
+ 
+for
 appointment—Determination before and after coining into force of Constitution, 1979—Office of Chief
 Justice of Court of Appeal and transitional Chief Justice—Whether office in existence before coining into
 force of Constitution, 1979—Proper construction of article 127 (8) and (9)—Meaning of “Shall be
-deemed” in article 127 (8)—Constitution, 1969—National Redemption Council (Establishment)
+deemed”
+ 
+in
+ 
+article
+ 
+127
+ 
+(8)—Constitution,
+ 
+1969—National
+ 
+Redemption
+ 
+Council
+ 
+(Establishment)
 Proclamation, 1972—Courts (Amendment) Decree, 1972 (N.R.C.D. 101)-Constitution, 1979, art. 127 (8)
 and (9) and Sched. I, ss. 1 (1) and 2 (1).
-Constitutional law—Constitutional issue Chief Justice—Removal—Proper mode—Application of
+
+Constitutional
+ 
+law—Constitutional
+ 
+issue
+ 
+Chief
+ 
+Justice—Removal—Proper
+ 
+mode—Application
+ 
+of
 provisions of article 128 and not recourse to article 127 (1)—Constitution, 1979, arts. 127 (1) and 128.
+
 [p.638] of [1980] GLR 637
+
 HEADNOTES
+
 It is provided by article 127 (1), (8) and (9) of the Constitution, 1979, that:
- “127. (1) The Chief Justice and the other Justices of the Supreme Court shall be appointed by the
+“127.
+ 
+(1)
+ 
+The Chief Justice and the other Justices of the Supreme Court shall be appointed by the
 President by warrant under his hand and the Presidential seal,
- (a) in the case of the Chief Justice, acting in consultation with the Judicial Council;
- (b) in the case of the other Justices of the Supreme Court, acting on the advice of the
+(a)
+ 
+in the case of the Chief Justice, acting in consultation with the Judicial Council;
+(b)
+ 
+in the case of the other Justices of the Supreme Court, acting on the advice of the
 Judicial Council, and with the approval of Parliament.
- (8) Subject to the provisions of clause (9) of this article, a Justice of the Superior Court of
+(8)
+ 
+Subject to the provisions of clause (9) of this article, a Justice of the Superior Court of
 Judicature holding office as such immediately before the coming into force of this Constitution
 shall be deemed to have been appointed as from the coming into force of this Constitution to
 hold office as such under this Constitution.
- (9) A Justice to whom the provisions of clause (8) of this article apply shall, on the coming into
+(9)
+ 
+A Justice to whom the provisions of clause (8) of this article apply shall, on the coming into
 force of this Constitution, take and sub- scribe the oath of allegiance and the judicial oath set
 out in the Second Schedule to this Constitution.”
 The plaintiff filed a writ against the Speaker of Parliament and the Attorney- General before the Court of
@@ -77,6 +186,7 @@ binding since the plaintiff and A had no community of interest.
 The court having dismissed the preliminary objections founded on lack of jurisdiction and capacity in the
 plaintiff and having discharged the Speaker as not a competent party (reserving its reasons) proceeded to
 determine the plaintiff’s writ. And on this issue, the Attorney-General contended, inter alia, that
+
 [p.639] of [1980] GLR 637
 before the Constitution, 1979, came into force, the hierarchy of courts ended at the Court of Appeal. No
 justice could therefore have held the office of a Justice of the Supreme Court. Accordingly, the Chief
@@ -101,15 +211,21 @@ had submitted to its procedure. A, his privies and those claiming in the same in
 challenging the consequences of that conduct. The court having found that the issues raised by the parties
 called for, inter alia, the interpretation of article 127(8) and (9) of the Constitution,
 Held, upholding the plaintiff’s claim:
-(1) the court had jurisdiction to, entertain the plaintiff’s writ because:
- (a) the jurisdiction of the court, as constituted, sprang from the provisions of section 3 of the
+(1)
+ 
+the court had jurisdiction to, entertain the plaintiff’s writ because:
+(a)
+ 
+the jurisdiction of the court, as constituted, sprang from the provisions of section 3 of the
 First Schedule to the Constitution. Nothing was said in that provision about article 2. No
 mention was made, oven indirectly, of article 2 as such. The Attorney-General was therefore
 right in contending that the court was precluded, by express omission from dealing with
 article 2, whatever coherence or symmetry that might have with the Constitution as a whole.
 But section 3 conferred jurisdiction on the court to deal with any issue falling within the
 ambit of article 118, in particular, for the purposes of the case, article 118 (1) (a);
- (b) The Constitution, by the provisions of article 1 (3) conferred on every citizen of Ghana the
+(b)
+ 
+The Constitution, by the provisions of article 1 (3) conferred on every citizen of Ghana the
 right to see to it that the constitutional order was not abolished or sought to be abolished.
 One method by which it could be determined whether a person was seeking to abolish the
 constitutional order, was to sock an interpretation of the Constitution as to the meaning of
@@ -119,11 +235,16 @@ employed in ordinary proceedings in the courts. In the instant case, there was a
 regarding the status of the incumbent Chief Justice, the determination of which would
 depend upon an interpretation of the Constitution;
 [p.640] of [1980] GLR 637
- (c) whether or not A was the Chief Justice was not a private right. The interest of the plaintiff
+(c)
+ 
+whether or not A was the Chief Justice was not a private right. The interest of the plaintiff
+
 was a constitutional right exercisable by all citizens of Ghana by virtue of article 1 of the
 Constitution. And the plaintiff under article 1, need not have any community of interest with
 any person or authority. His community of interest was with the Constitution.
-(2) The courts did not, and could not, inquire into how Parliament went about its business. That
+(2)
+ 
+The courts did not, and could not, inquire into how Parliament went about its business. That
 constituted the state of affairs, as between the legislature and the judiciary which had been
 crystallized in articles, 96, 97, 98, 99, 103 and 104 of the Constitution. Of particular importance
 were, the provisions of article 96 which has stated categorically that the freedom of speech, debate
@@ -131,7 +252,9 @@ and proceedings of Parliament should not be questioned in any court or place out
 so far as Parliament had acted by virtue of the powers conferred upon it by the provisions of article
 91 (1), its actions within Parliament were a closed book. The Speaker therefore ought not be a party
 in the instant proceedings and the, court would accordingly discharge him as a party.
-(3) The argument founded on estoppel by election would be dismissed because the Constitution, 1979,
+(3)
+ 
+The argument founded on estoppel by election would be dismissed because the Constitution, 1979,
 art. 1 (2) has provided that the “Constitution shall be the supreme law of Ghana and any other law
 found to be inconsistent with any provision of this Constitution shall, to the extent of the
 inconsistency, be void and of no effect.” That was the constitutional criterion by which all acts
@@ -142,7 +265,9 @@ interpretation of the relevant article under consideration unless that decision 
 with the postulates of the Constitution. It was the propriety of the decision which was under
 challenge. The court did not think that any act or conduct which was contrary to the express or
 implied provisions of the Constitution could be validated by equitable doctrines of estoppel.
-(4) The courts before 24 September 1979 derived their existence and functions from the Constitution,
+(4)
+ 
+The courts before 24 September 1979 derived their existence and functions from the Constitution,
 1969. The Chief Justice in that constitution had a unique personality; he was both a member and
 head of that one composite institution known as the Superior Court of Judicature. It was by virtue,
 of his being the head that he had been the president of all component parts in the structure. The
@@ -158,13 +283,14 @@ Court of Judicature . . .” The warrant indentified his status in the hierarchy
 the Republic of Ghana.” And in the 1979 Constitution, as in that of 1969, there was established one
 Superior Court of Judicature. The Chief Justice in both Constitutions presided over all the
 [p.641] of [1980] GLR 637
- courts within the Superior Court of Judicature. He was the president and member of all those courts
+courts within the Superior Court of Judicature. He was the president and member of all those courts
 not by reason of a direct or specific appointment to any of them but by virtue of his status as the
 head of the Superior Court of Judicature. The court would therefore conclude that on 23 September
 1979, i.e. immediately before the coming into force of the Constitution. 1979, A was the incumbent
 Chief Justice and Head of the Judiciary and not the Chief Justice of the Court of Appeal. There was
 no such office before 24 September 1979 known as Chief Justice of the Court of Appeal or a
 transitional Chief Justice.
+
 Per curiam. The Chief Justice is sui juris . . . The Chief Justice under our system of government is
 appointed as such. He could be a member of any of the courts before such appointment. He could be
 appointed straight from the bar . . . When so appointed he becomes the Head of the Judiciary. In his
@@ -172,7 +298,9 @@ capacity as the Chief Justice he automatically becomes a member of each of the c
 Constitution. He is not a Chief Justice by virtue of his being a member of a particular court. He is a
 member of the Supreme Court, the Court of Appeal and the High Court because he is the Chief Justice.
 This is the system as it existed immediately before the coming into force of the Constitution, 1979.
-(5) The duty of the court in interpreting the provisions of article 127 (8) and (9) was to take the words
+(5)
+ 
+The duty of the court in interpreting the provisions of article 127 (8) and (9) was to take the words
 as they stood and to give them their true construction having regard to the language of the
 provisions of the Constitution, always preferring the natural meaning of the words involved, but
 nonetheless giving the words their appropriate construction according to the context. Thus the
@@ -181,7 +309,9 @@ he something else with its attendant consequences when it was in fact not) had b
 used in several parts of the Constitution and thus an aid towards ascertaining its true meaning.
 Dicta of Lord Radcliffe in St. Aubyn v. Attorney- General [1952] A.C. 15 at p. 53, H.C. and of
 Viscount Simon L.C. in Barnard v. Gorman [1941] A.C. 378 at p. 384, H.L. applied.
-(6) Applying the meaning of the word “deemed” to section 1 (1) of the transitional provisions to the
+(6)
+ 
+Applying the meaning of the word “deemed” to section 1 (1) of the transitional provisions to the
 Constitution, it meant that though the First President was not appointed under the Constitution, he
 should for all purposes exercise all the functions of the President as if he had been so appointed
 under the Constitution. But for that provision he would have had to stand for fresh elections. It was
@@ -189,7 +319,9 @@ the same meaning attachable to the provision in section 2 (1) of the transitiona
 to a member of Parliament elected before the coming into force of the Constitution. It was by virtue
 of that provision that a member of Parliament was considered as having been elected under the
 Constitution when, in fact, he had not been so elected.
-(7) Similarly, applying the definition of “deemed“ to article 127 (8), a justice of the Superior Court of
+(7)
+ 
+Similarly, applying the definition of “deemed“ to article 127 (8), a justice of the Superior Court of
 Judicature (that one composite institution) holding office as such immediately before the coming
 into force of the Constitution should continue to hold the office as if he had been appointed by its
 processess. The Chief Justice was a member and Head of the Superior Court of Judicature. He was
@@ -197,47 +329,888 @@ a member of the class of persons or justices referred to in article 127 (8). Acc
 would hold that upon the coming into force of the Constitution, the incumbent Chief Justice, by
 virtue of article 127 (8) and (9) became the Chief Justice, and under article
 [p.642] of [1980] GLR 637
- 114 (1), the Head of the Judiciary—he became the Chief Justice by the due process of law holding
+114 (1), the Head of the Judiciary—he became the Chief Justice by the due process of law holding
 the identical or equivalent office as he hold before the Constitution came into force,. That
 interpretation was in harmony with the user of the phrase “shall be deemed” in other provisions of
 the Constitution and was in conformity with the rationale behind article 127 (8) and (9) as declared
 by paragraph 204 of the, Proposals of the Constitutional Commission.
-(8) Once the Chief Justice was constitutionally in office, his removal, whatever arguments were raised,
+(8)
+ 
+Once the Chief Justice was constitutionally in office, his removal, whatever arguments were raised,
 could only be constitutionally effected by invoking the relevant provisions of article 128 and not by
 recourse to article 127 (1). Any other manner, any other method, would clearly be inconsistent with
 the provisions of the Constitution.
+
 CASES REFERRED TO
-(1) Vanderpuije v. Akwei [1971] 1 G.L.R. 242.
-(2) Appiah v. Attorney-General, Court of Appeal, Accra, 25 September 1970, unreported; digested in
+
+(1)
+ 
+Vanderpuije v. Akwei [1971] 1 G.L.R. 242.
+
+(2)
+ 
+Appiah v. Attorney-General, Court of Appeal, Accra, 25 September 1970, unreported; digested in
 (1970) C.C. 107.
-(3) Guaranty Trust Company of New York v. Hannay & Co. [1915] 2 K.B. 536; 84 L.J.K.B. 1465; 113
+(3)
+ 
+Guaranty Trust Company of New York v. Hannay & Co. [1915] 2 K.B. 536; 84 L.J.K.B. 1465; 113
 L.T. 98; 21 Com.Cas. 67, C.A.
-(4) Clark v. Epsom Rural District Council [1929] 1 Ch. 287; 98 L.J.Ch. 88; 140 L.T. 246; 93 J.P. 67;
+(4)
+ 
+Clark v. Epsom Rural District Council [1929] 1 Ch. 287; 98 L.J.Ch. 88; 140 L.T. 246; 93 J.P. 67;
 45 T.L.R. 106; 27 L.G.R. 328.
-(5) Akyem Abuakwa Stool v. Adansi Stool (1957) 3 W.A.L.R. 171; sub nom. Nana Ofori Atta v. Nana
+(5)
+ 
+Akyem Abuakwa Stool v. Adansi Stool (1957) 3 W.A.L.R. 171; sub nom. Nana Ofori Atta v. Nana
 Adu Bonsra II [1958] A.C. 95; [1957] 3 W.L.R. 830; [1957] 3 All E.R. 559; 101 S.J. 882, P.C.
 affirming sub nom. Nana Ofori Atta II v. Nana Bonsra Agyei (1952) 14 W.A.C.A. 149.
-(6) Dyson v. Attorney-General [1911] 1 K.B. 410; 80 L.J.K.B. 531; 103 L.T. 707; 27 T.L.R. 143; 55
+(6)
+ 
+Dyson v. Attorney-General [1911] 1 K.B. 410; 80 L.J.K.B. 531; 103 L.T. 707; 27 T.L.R. 143; 55
 S.J. 168, C.A.
-(7) Powell et al v. McCormack, Speaker of the House of Representatives 395 U.S. 486, 23 L.Ed. 2d.
+(7)
+ 
+Powell et al v. McCormack, Speaker of the House of Representatives 395 U.S. 486, 23 L.Ed. 2d.
 491, 89 S.Ct. 1944.
-(8) Ahenkora v. Ofe (1957) 3 W.A.L.R. 145, C.A.
-(9) Lart, In re; Wilkinson v. Blades [1896] 2 Ch. 788; 65 L.J.Ch. 846; 75 L.T. 175; 45 W.R. 27; 40 S.J.
+(8)
+ 
+Ahenkora v. Ofe (1957) 3 W.A.L.R. 145, C.A.
+(9)
+ 
+Lart, In re; Wilkinson v. Blades [1896] 2 Ch. 788; 65 L.J.Ch. 846; 75 L.T. 175; 45 W.R. 27; 40 S.J.
 653.
-(10) United Australia, Ltd. v. Barclays Bank, Ltd. [1941] A.C. 1; [1940] 4 All E.R. 20; 109 L.J.K.B.
+(10)
+ 
+United Australia, Ltd. v. Barclays Bank, Ltd. [1941] A.C. 1; [1940] 4 All E.R. 20; 109 L.J.K.B.
 919; 164 L.T. 139; 57 T.L.R. 13; 46 Com.Cas. 1, H.L.
-(11) Barnard v. Gorman [1941] A.C. 378; [1941] 3 All E.R. 45; 110 L.J.K.B. 557; 165 L.T. 308; 105
+(11)
+ 
+Barnard v. Gorman [1941] A.C. 378; [1941] 3 All E.R. 45; 110 L.J.K.B. 557; 165 L.T. 308; 105
 J.P. 379; 57 T.L.R. 681; 39 L.G.R. 273, H.L.
-(12) St. Aubyn v. Attorney-General [19521 A.C. 15; [1951] 2 All E.R. 473, H.L.
+(12)
+ 
+St. Aubyn v. Attorney-General [19521 A.C. 15; [1951] 2 All E.R. 473, H.L.
 [p.643] of [1980] GLR 637
+
 NATURE OF PROCEEDINGS
+
 ACTION before the Court of Appeal, sitting as the Supreme Court under section 3 of the First Schedule
 of the Constitution, 1979, for an interpretation of the status of the holder of the office of Chief Justice on
 the coming into force of the Constitution, 1979. The facts are fully stated in the judgment delivered on 23
 October 1980 wherein the court gave its reasons for the declaratory judgment pronounced on 23
 September 1980.
+
 COUNSEL
+
 Nana Akufo-Addo (with him Dr. Prempeh, Tsatsu Tsikata, J. A. Glover and Mrs. Reindorf) for the
 plaintiff.
-Joe Reindorf, Attorney-General (with him Djabatey, Deputy Attorney-General, C. H. A. Tetteh,
+Joe
+ 
+Reindorf,
+ 
+Attorney-General
+ 
+(with
+ 
+him
+ 
+Djabatey,
+ 
+Deputy
+ 
+Attorney-General,
+ 
+C.
+ 
+H.
+ 
+A.
+ 
+Tetteh,
 Solicitor-General, I. Odoi and Mrs. Campbell, Principal State Attorneys) for the defendant.
+
+JUDGMENT OF SOWAH J.S.C.
+Sowah J.S.C.
+ 
+delivered the judgment of the court. The plaintiff is seeking a declaration from this court
+that:
+“(a)
+ 
+on the coming into force of the Constitution of the Third Republic on 24 September 1979, Fred Kwasi
+
+Apaloo was deemed to have been appointed Chief Justice of the Republic and as such became
+president and member of the Supreme Court;
+(b)
+ 
+the purported nomination by the President of the Republic of Fred Kwasi Apaloo for approval by
+Parliament of his appointment as Chief Justice of the Republic and member of the Supreme Court and
+his purported vetting and rejection by Parliament as such on 16 August 1980 were each acts effected
+in contravention of the Constitution and laws of the Republic and were therefore all null and void and
+of no effect;
+(c)
+ 
+Fred Kwasi Apaloo remains Chief Justice of the Republic and, thereby, president of the Supreme
+Court.”
+The Attorney-General, as solicitor for the defendants stated, inter alia, in his statement of defence that:
+“in nominating Fred Kwasi Apaloo as Chief Justice, the President was acting in fulfilment of the mandatory
+requirements of article 127 (1) of the Constitution, 1979, and in the exercise of powers conferred on him by
+the same clause of the Constitution, while Parliament, in rejecting the said nomination, was exercising
+powers conferred upon it by the said clause (1) of article 127.”
+At the hearing, the Attorney-General sought leave to raise preliminary objections: firstly as to the
+jurisdiction of this court; secondly, as to the capacity of the plaintiff and thirdly as to the competency
+[p.644] of [1980] GLR 637
+of the Speaker as the first defendant. Arguing on the issue of jurisdiction the Attorney-General, submitted
+that this court as presently constituted was the Court of Appeal exercising, by virtue of the provisions of
+section 3 of Part III of the First Schedule to the Constitution, the powers conferred upon the Supreme
+Court under articles 51, 117, and 118. This meant that the powers of the present court were limited to
+those articles and it had no jurisdiction to deal with any issue falling under, or referable to, article 2. As
+such if there was any portion of the plaintiff’s claim which was referable to article 2 that portion was bad
+in law. The only court that could make a declaration under article 2 of the Constitution was the Supreme
+Court properly so called and properly so constituted.
+He went further to say that if the claim was examined in detail, it would appear that the plaintiff was only
+asking for interpretation. This could be seen from paragraph 2 of the statement of the plaintiff’s case and
+paragraph 2 of the writ stating the nature of one of the reliefs sought. What were there referred to were
+acts by certain persons other than Parliament. In his view, before this court could exercise its jurisdiction
+under paragraph (a) of clause (1) of article 118, consideration should be given to the use of the word
+“matter” in that paragraph. Referring to the High Court (Civil Procedure) Rules, 1954 (L.N. 140A), Order
+1, r. 1 he contended that “matter” included every proceedings in court not in a cause. This was
+emphasized in the case of Vanderpuije v. Akwei [1971] 1 G.L.R. 242 at p. 245. He relied also on the use
+of that word in Chapter 12 of the Constitution-relating to the judiciary—and stated on that issue, that if
+one reviewed the use of the word “matter” in the Constitution, one would find that it was synonymous
+with the word “cause.” He cited in support, Burrows, Words and phrases Judicially Defined (1st ed.), Vol.
+3 at p. 339. In fine, therefore, there must be a controversy between two persons in order to invoke the
+provisions of paragraph (a) clause (1) of article 118, in order to enable this court to grant a relief to the
+person who brought the matter before the court. That person must have a cause of action for which a relief
+could be granted.
+But here, what was the relief that was claimed by the plaintiff for himself? None. None whatsoever. When
+one was invoking article 118, one must allege a personal matter which was not common to the rest of the
+public. If no such allegation appeared in the writ or the pleadings then that person had no cause of action.
+The person who had exclusive interest was the incumbent Chief Justice. That argument was supported by
+reference to Appiah v. Attorney-General, Court of Appeal, Accra, 25 September 1970, unreported;
+
+digested in
+[p.645] of [1980] GLR 637
+(1970) C.C. 107. It was proved that the plaintiff in that case had an interest. But the plaintiff in this case
+had no interest whatsoever.
+At common law, there was no inherent right for a person to ask for a declaration. His writ, must show
+some form of relief-citing Order 25, r. 5 of the High Court (Civil Procedure) Rules, 1954 (L.N. 140A). He
+submitted that it was only by that rule that the High Court had power conferred by statute. Under the
+authority of Guaranty Trust Company of New York v. Hannay & Co. [1915] 2 K.B. 536 at p. 537, C.A.
+until a statute had conferred power on a court to make a declaration a court could not grant one. The
+court’s power at common law to grant a declaration arose from its power to grant a relief. A declaration
+could not stand by itself: Clark v. Epsom Rural District Council [1929] 1 Ch. 287.
+On the issue of the competency of the Speaker as the first defendant, the Attorney-General argued that the
+only averments against the Speaker were contained in paragraphs (6), (7) and (8) of the plaintiff’s
+statement of claim. The acts complained of were part of the proceedings in Parliament. He contended,
+therefore, that neither this court nor any other court had power to call in question any proceedings of
+Parliament. Even if the facts alleged were established they would have had no relevance to this action by
+virtue of the provisions of article 96 of the Constitution. The effect of that article was that the proceedings
+in Parliament could not be questioned. Since the allegation was that certain members of Parliament did
+certain acts, whether Parliament did those acts or not this court could not question what Parliament had
+done. He would therefore apply that paragraphs (6), (7), (8) and (9) of the statement of claim be struck
+out as disclosing no cause of action. He would also ask that the Speaker be discharged from the present
+proceedings.
+Finally, the Attorney-General, relying again on Guaranty Trust Company of New York v. Hannay & Co.
+(supra) stated that whatever definition of jurisdiction is accepted there must be a matter before the court
+and a matter could not exist without a controversy. He also cited Akyem Abuakwa Stool v. Adansi Stool
+(1957) 3 W.A.L.R. 171, P.C. as authority for the proposition that a declaration made in this court would
+be of no binding effect whatsoever as there was no community of interest between the plaintiff and the
+incumbent Chief Justice.
+Leading counsel for the plaintiff argued that none of the objections raised by the Attorney-General had
+any merit whatsoever. To him the nature of the plaintiff’s writ was an action seeking an interpretation, an
+enforcement of certain provisions of the Constitution. The issue was whether the Chief Justice was a
+“transitional”
+[p.646] of [1980] GLR 637
+holder of the office or the substantive holder. The tenure of his office and the terms of that tenure were of
+interest to every Ghanaian.
+By article 114 of the Constitution, the Chief Justice is the Head of the Judiciary. The effect of clauses (3)
+and (5) of that article was that the legality of that office was a matter of grave public importance. It was a
+matter which affected every citizen of Ghana directly—the administration of justice, the protection of the
+Constitution, the protection of individual rights are left with the court. On that vital matter, a responsible
+citizen had come before this court asking for interpretation and enforcement.
+In his view, the effect of the submission of the Attorney-General was that, this court could not invoke the
+provisions of clause (1) of article 2 of the Constitution. The most fundamental objection to that
+
+submission was that, for the moment, citizens of Ghana had no power to protect themselves, that the
+plaintiff had no personal interest in the matter and therefore, lacked capacity; and that the Speaker of
+Parliament had acted unconstitutionally as head of Parliament. The objections of the Attorney-General
+undermined the very foundations of the Constitution.
+On the issue of jurisdiction, he would argue that this court in exercising its jurisdiction under article 118
+was doing no more or no less than the Constitution had charged it to do. This court was sitting as the
+Court of Appeal exercising the jurisdiction of the Supreme Court by virtue of the provisions of section 3
+of Part III of the First Schedule to the Constitution, the jurisdiction conferred by articles 51, 117 and 118.
+Article 2 in his view set out its supremacy. Article 118 used the word “enforcement” and, therefore,
+article 2 is the principal mechanism for the enforcement of the Constitution. As such article 118 was
+directly referable to article 2 and the two articles must be read together. And the court must give effect to
+the coherence and symmetry of article 2. To say that the operation of article 2 should abide the
+appointment of the full complement of the justices of the Supreme Court was to say that within the period
+of twelve months specified in section 3 of Part III of the First Schedule, a citizen could not exercise his
+right under article 2.
+In examining the issue of jurisdiction, the philosophy, the principles which animated the Constitution
+must be in the view of the court all the time. The only limitation on article 118 is article 35. All other
+matters including a matter cognisable by this court were matters arising from article 2. And the
+Constitution limited the powers of Parliament. Wherever by construction it was possible to give effect to
+the philosophy and principles of the Constitution, the cases cited by the Attorney-General were irrelevant
+in considering our Constitution. We were not dealing with contractual or minor
+[p.647] of [1980] GLR 637
+rights. Even if article 2 was inoperative the plaintiff would still be entitled to invoke the jurisdiction of
+this court: relying on Dyson v. Attorney-General [1911] 1 K.B. 410, C.A.
+Regarding interest, counsel argued that article 1 set out the persons interested in the Constitution.
+Nowhere in the Constitution was it said that a person should have an interest. There must be a distinction
+between the case of Appiah v. Attorney-General (supra) and the present case. The end result was that, all
+Ghanaians were interested in the tenure of office of the Chief Justice.
+As regards the position of the Speaker, as the first defendant, counsel argued that the Speaker was part of
+Parliament and not a member of Parliament, relying on articles 83 and 97 and also Powell v. McCormack
+395 US 486. To say that the Speaker could not be brought to court was to say that the actions of
+Parliament could not be challenged. The present case was not a mere civil or criminal matter citing
+Ahenkora v. Ofe (1957) 3 W.A.L.R. 145, C.A.
+In reply, the Attorney-General submitted that if one could not sue a member of Parliament, could the
+Speaker of Parliament be sued? He emphasized that the Speaker was not a competent party. For on a true
+interpretation, the Speaker was immune from the writ of these courts, relying also on Powell v.
+McCormack (supra) at p. 503. In his view Dyson v. Attorney-General (supra) showed that declaratory
+judgments could be given. But it supports his argument that there must be an interest, the learned
+Attorney-General concluded.
+A written Constitution such as ours is not an ordinary Act of Parliament. It embodies the will of a people.
+It also mirrors their history. Account, therefore, needs to be taken of it as a landmark in a people’s search
+for progress. It contains within it their aspirations and their hopes for a better and fuller life.
+The Constitution has its letter of the law. Equally, the Constitution has its spirit. It is the fountain-head for
+the authority which each of the three arms of government possesses and exercises. It is a source of
+
+strength. It is a source of power. The executive, the legislature and the judiciary are created by the
+Constitution. Their authority is derived from the Constitution. Their sustenance is derived from the
+Constitution. Its methods of alteration are specified. In our peculiar circumstances, these methods require
+the involvement of the whole body politic of Ghana. Its language, therefore, must be considered as if it
+were a living organism capable of growth and development Indeed, it is a living organism capable of
+growth and development, as the body politic of Ghana itself is capable of growth and development. A
+broad and liberal spirit is required for its interpretation. It does not admit of a narrow interpretation. A
+doctrinaire approach
+[p.648] of [1980] GLR 637
+to interpretation would not do. We must take account of its principles and bring that consideration to bear,
+in bringing it into conformity with the needs of the time.
+And so we must take cognisance of the age-old fundamental principle of constitutional construction
+which gives effect to the intent of the framers of this organic law. Every word has an effect. Every part
+must be given effect. Perhaps it would not be out of place to remember the injunction of St. Paul
+contained in his First Epistle to the Corinthians, Chapter 12, verses 14-20 (King James Version):
+“For the body is not one member, but many. If the foot shall say, Because I am not the hand, I am not of the
+body; is it therefore not of the body? And if the ear shall say, Because I am not the eye, I am not of the body;
+is it therefore not of the body? If the whole body were an eye, where were the hearing ? If the whole were
+hearing, where were the smelling . . . ?
+But now are they many members, yet but one body.”
+(The emphasis is ours.)
+And so a construction should be avoided which leads to absurdity. And when a particular interpretation
+leads to two, shall we say “inconsistent” results, the spirit of the Constitution would demand that the more
+reasonable of the two should be adhered to. We must have recourse to the Constitution as a whole.
+The jurisdiction of this court, as presently constituted, springs from the provisions of section 3 of Part III
+of the First Schedule to the Constitution. That section charges this court to, “perform the functions of the
+Supreme Court contained in articles 51, 117 and 118 only . . .” Nothing is said in this provision about
+article 2. No mention is made, even indirectly, of article 2 as such. This court cannot thus deal with any
+cause, dispute or matter relating to or involving article 2 of the Constitution. In this respect we agree with
+the sub- missions of the learned Attorney-General on this issue. We are precluded, by express omission,
+from dealing with article 2, whatever coherence or symmetry that may have with the Constitution as a
+whole. The words of section 3 admit of no ambiguity. Yet is it not idle to argue that the operation of
+article 2 should abide the appointment of the full complement of justices of the Supreme Court?
+It is, however, further argued that in so far as the claim of the plaintiff or any portion of it is referable to
+article 2 that portion is bad in law. As has already been demonstrated section 3 of the First Schedule to the
+transitional provisions of the Constitution, confers, for our present purposes, jurisdiction on this court to
+deal with any issue falling within the ambit of article 118 of the Constitution. In particular, for the
+purposes of this case, paragraph (a) of clause
+[p.649] of [1980] GLR 637
+(1)
+ 
+of that article. For this purpose, the learned Attorney-General is of the view that for the operation
+of that paragraph, the expression “in all matters” as used in that paragraph means, and must be
+taken to mean, that there must ‘exist a controversy between two persons out of which the issue of
+
+interpretation or enforcement could arise.
+In the instant case, the plaintiff is seeking only a declaration. That in itself, and as it is clear from the
+pleadings, raises an issue as to the interpretation of certain provisions of the Constitution. It must be borne
+in mind all the time that the High Court (Civil Procedure) Rules, 1954 (L.N.140A), were never intended
+to govern, in whatever manner, the construction of words in a Constitution such as ours. Not even the
+1957 Constitution which came into being only three years after the rules came into force. But we are used
+to certain words which have acquired a hallowed meaning, sanctified by usage. Hence the significance of
+the arguments of the learned Attorney-General in this regard.
+The High Court (Civil Procedure) Rules, 1954 (L.N. 140A), defines, in Order 1, r. 1, the word “Matter”
+as including “every proceeding in Court not in a cause.” The word “Cause” is defined as including “any
+action, suit or other original proceeding between plaintiff and defendant.” It is significant, and we must
+emphasize this, that these two definitions both use the word “includes.” A different interpretation would
+be called for had the word “means” been used in both definitions. For a definition is expansive, that is, it
+enlarges the meaning, when the word “includes” is used. A narrow meaning is intended and therefore
+restrictive when the word “means” is used. If the two definitions are read together, “matter” would be
+defined as including “every proceeding in court not in an action, suit or other original proceeding between
+plaintiff and defendant.” And more.
+If, therefore, we apply this definition to the use of the word “matter” in paragraph (a) of clause (1) of
+article 118, the word at matter” as used in that paragraph, accepting the Attorney-General’s argument,
+would then not embrace the present proceedings. Because—and this must be emphasized—because the
+present proceedings in court do not arise out of “any action, suit or other original proceeding between
+plaintiff and defendant.” It is purely a proceeding seeking for an interpretation of the Constitution. It is a
+proceeding in court but not in a cause. There is no existing controversy out of which it arises.
+The Constitution confers on every citizen of Ghana by article 1 (3): “the right to resist any person or
+persons seeking to abolish the constitutional order as established by this Constitution should no other
+remedy be possible.” This means that every citizen of Ghana
+[p.650] of [1980] GLR 637
+has the right, constitutional or otherwise, to see to it that the constitutional order as established by the
+Constitution is not abolished or sought to be abolished. One method by which it could be determined
+whether a person is seeking to abolish the constitutional order, is to seek for an interpretation of the
+Constitution as to the meaning or the effect of a particular provision or provisions of the Constitution. In
+such a case, in essence, there would neither be a defendant nor a plaintiff—properly so called, as the
+terms are commonly employed in ordinary proceedings in these courts.
+Is there then a controversy? Is there then a duty, a right, a liability that can be established by this court?
+The answer is yes! There is a right, a duty cast upon every citizen of Ghana to go to the Supreme Court
+for determination whether a person or persons is, or are, seeking to abolish the constitutional order
+established by the Constitution. There is a controversy regarding the status of the incumbent Chief
+Justice, the determination of which depends upon an interpretation of the Constitution. Once there is a
+controversy, a justiciable issue, we believe that under the wing of interpretation as contained in paragraph
+(a) of clause (1) of article 1 1 8, the court has jurisdiction to entertain the issue raised by the plaintiff’s
+writ. And the plaintiff is thus properly before this court.
+This then brings us to the question of how far the courts can question what, under our Constitution, has
+been done in, and by, Parliament? There is a long line of authorities which establishes two important
+principles governing the relationship that subsists or should exist between Parliament and the courts:
+
+(a)
+ 
+that the courts can call in question a decision of Parliament; but that the courts cannot seek to
+extend their writs into what happens in Parliament; and
+(b)
+ 
+that the law and custom of Parliament is a distinct body of law and, as constitutional expert!, do put
+it, “unknown to the courts.”
+And therefore the courts take judicial notice of what has happened in Parliament. The courts do not, and
+cannot, inquire into how Parliament went about its business. These constitute the state of affairs, as
+between the legislature and the judiciary which have been crystallized in articles 96, 97, 98, 99, 103 and
+104 of the Constitution. Of particular importance to us are the provisions of article 96 of the Constitution.
+They confer on Parliament freedom of speech, of debate and of proceedings in Parliament. The article
+also states categorically: “that freedom shall not be impeached or questioned in any Court or place out of
+Parliament.” The courts cannot therefore inquire into the legality or illegality of what happened in
+Parliament.
+[p.651] of [1980] GLR 637
+In so far as Parliament has acted by virtue of the powers conferred upon it by the provisions of article 91
+(1), its actions within Parliament are a closed book.
+The above were the considerations that led to our conclusions on 19 September 1980 and we ruled:
+(a)
+ 
+that this court has jurisdiction under article 118 (1) (a) of the Constitution to entertain the present
+writ;
+(b)
+ 
+that every citizen of Ghana has a constitutional right to seek for an interpretation or enforcement of
+the Constitution;
+(c)
+ 
+that the Speaker ought not be a party to the present proceedings and we accordingly discharge him
+as the first defendant; and
+(d)
+ 
+that certain paragraphs, that is to say, paragraphs (6) and (7) of the statement of claim should be
+struck out and are accordingly struck out.
+Having given the reasons for its ruling on its assumption of jurisdiction this court now turns its attention
+to the merits of the action and to the reasons for the declaratory judgment it pronounced on 23 September
+in the year of our Lord One Thousand Nine Hundred and Eighty.
+The plaintiff, Dr. Kwame Amoako Tuffuor, a lecturer at the University of Science and Technology,
+Kumasi, by his writ complains that on 16 July 1980, the President of the Republic in consultation with the
+Judicial Council purported to nominate Mr. Justice Fred Kwasi Apaloo to the office of Chief Justice and
+for approval by Parliament. That on 16 August 1980 Parliament purported to “vet” the said Mr. Justice
+Fred Kwasi Apaloo in Parliament and subsequently rejected his nomination.
+The plaintiff claims that upon a true and proper construction of the Constitution each of the various acts
+of the President, the Judicial Council and Parliament was unlawful and violated the Constitution and is
+void. Thus at one fell swoop, he attacks the Executive, the Judicial Council and Parliament and invokes to
+his aid the original jurisdiction of the Supreme Court in article 118 (1) (a) which provides:
+“118.
+ 
+(1)
+ 
+The Supreme Court shall, except as otherwise provided in article 35 of this Constitution, have
+original jurisdiction, to the exclusion of all other Courts,
+(a)
+ 
+in all matters relating to the enforcement or interpretation of any provision of this
+Constitution.”
+Nana Akufo-Addo, leading counsel for the plaintiff, submits that prior to the coming into force of the
+
+Constitution of the Third Republic there was an incumbent Chief Justice in the person of
+[p.652] of [1980] GLR 637
+Mr. Justice Apaloo and that upon the promulgation of the Constitution all public offices in the old order,
+including the judiciary, were by operation of law abolished and new offices created. Nana Akufo-Addo
+further submits that in order to have continuity between the old and the new orders the framers devised
+schemes by which certain office-holders were deemed to have been appointed into the equivalent offices
+immediately upon the coming into force of the Constitution. One such statutory device was in article 127
+(8) and (9). In view of the elaborate and erudite arguments that have been placed on the article by both
+counsel the court deems it necessary to reproduce in whole the relevant provisions, namely, article 127
+(1), (2), (8) and (9).
+“127.
+ 
+(1)
+ 
+The Chief Justice and the other Justices of the Supreme Court shall be appointed by the
+President by warrant under his hand and the Presidential seal,
+(a)
+ 
+in the case of the Chief Justice, acting in consultation with the Judicial Council;
+(b)
+ 
+in the case of the other Justices of the Supreme Court, acting on the advice of the
+Judicial Council,
+and with the approval of Parliament.
+(2)
+ 
+The other Justices of the Superior Court of Judicature shall be appointed by the President by
+warrant under his hand and the Presidential seal acting in accordance with the advice of the
+Judicial Council . . .
+(8)
+ 
+Subject to the provisions of clause (9) of this article, a Justice of the Superior Court of
+Judicature holding office as such immediately before the coming into force of this Constitution
+shall be deemed to have been appointed as from the coming into force of this Constitution to
+hold office as such under this Constitution.
+(9)
+ 
+A Justice to whom the provisions of clause (8) of this article apply shall, on the coming into
+force of this Constitution, take and subscribe the oath of allegiance and the judicial oath set out
+in the Second Schedule to this Constitution.”
+These two latter clauses are the subject-matter of long disputations between Nana Akufo-Addo and the
+learned Attorney-General.
+Nana Akufo-Addo contends that upon the true and proper construction of that article those justices of the
+Superior Court of Judicature who held offices on 23 September 1979 retained their offices upon their
+taking the oaths referred to in the Second Schedule. Mr. Justice Apaloo was one such justice and held the
+office of Chief Justice of the Republic; accordingly, by virtue of these provisions he became the Chief
+Justice. Having thus been pronounced Chief
+[p.653] of [1980] GLR 637
+Justice by the Constitution, itself, it was incompetent for the persons and the authorities described in the
+writ respectively to nominate him, endorse the nomination, and to subject him to parliamentary approval.
+Nana Akufo-Addo invites the court to examine other provisions of the Constitution where the legislative
+device of deeming to be what is not has been deployed with the same intention and effect as that which is
+in clause (8) of article 127. That in a nutshell is the submission of Nana Akufo-Addo. The court shall
+discuss his other submissions as it proceeds to enunciate the other principles which culminated in the
+pronouncement of judgment.
+The Attorney-General controverts these arguments. He concedes, however, that Mr. Justice Apaloo was
+the Chief Justice before the coming into force of the Constitution but submits that the courts over which
+
+he presided were in a material sense different from those which the new Constitution has created, in that a
+new court has been superimposed on to the hierarchy of courts and it is the Supreme Court. He maintains
+that before the coming into force of the Constitution there was no Supreme Court; no justice could
+therefore be holding the office of a justice of the Supreme Court. To qualify for membership of the
+Supreme Court every appointee must go through the processes laid down in article 127 (1). The thrust of
+his argument is then that before the coming into force of the Constitution, the Court of Appeal was the
+highest court of the land, therefore the Chief Justice under that hierarchy was only a Chief Justice of the
+Court of Appeal. To qualify him to be Chief Justice now, he must be a member of the Supreme Court;
+accordingly, he ought to submit himself to the procedures of appointment mandated under article 127 (1).
+The Attorney-General continues that upon promulgation of the Constitution, Mr. Justice Apaloo, the
+Chief Justice of the old order, became the most senior justice of the Court of Appeal and by reason
+thereof, became a “transitional” Chief Justice and remained in that status until the required number of
+justices was duly appointed; immediately there were appointed seven justices, the Supreme Court became
+“established”; Mr. Justice Apaloo ceased to be “transitional” Chief Justice unless he was appointed the
+new Chief Justice. He maintains that the intention of the framers of the Constitution was to subject all
+prospective justices of the Supreme Court to the scrutiny of Parliament and that object would be defeated
+if the head of the judiciary be not subject to screening in like manner as his colleagues.
+The Attorney-General’s interpretation of clause (8) of article 127 is that since there has not been a
+specific mention of the office of Chief Justice the clause is inapplicable to that office; it applies to
+[p.654] of [1980] GLR 637
+the other holders of offices in the hierarchy with the Court of Appeal as its highest tier. He asks himself
+the rhetorical question; “What was the office he was holding before 24 September 1979”? And answers
+thus: “He was holding the office of a Chief Justice which ended with the Court of Appeal.” For part of
+this submission the Attorney-General draws inspiration from section 3 (1) of the transitional provisions of
+the Constitution, which provides:
+“3.
+ 
+(1)
+ 
+The required number of Justices, for a duly constituted Supreme Court as established under
+clause (5) of article 114 of this Constitution shall be appointed within twelve months after the
+coming into force of this Constitution, and until the appointments are made, the Court of
+Appeal as established under that clause shall perform the functions of the Supreme Court
+contained in articles 51, 117 and 118 only of this Constitution.”
+Turning to the next leg of his submission, the Attorney-General contends that whether or not Mr. Justice,
+Apaloo is Chief Justice is a private right; the plaintiff is therefore incompetent to maintain this action.
+This court has, in its ruling on jurisdiction, rejected this line of argument and has explicitly pronounced
+upon the interest of the plaintiff which in our view is a: constitutional right exercisable by all citizens of
+Ghana by virtue of article 1 of the Constitution.
+The Attorney-General then propounds this thesis that if this court should find that Fred Kwasi Apaloo
+remains Chief Justice of Ghana then he by his conduct in accepting the nomination and appearing before
+Parliament must be deemed to have waived any immunity the Constitution provided and must accept the
+consequences of his own conduct.
+The plaintiff, says the Attorney-General, has a community of interest with Mr. Justice Apaloo, thus every
+defence available to him against the “transitional Chief Justice” is in law maintainable against the
+plaintiff; and the defence is mounted upon the equitable principle of estoppel by election. The conduct
+relied upon, was that the Chief Justice had in correspondence with the President and the learned
+Attorney-General asserted that upon a true interpretation of article 127 (8) and (9) he had been appointed
+Chief Justice by the Constitution when he took the oath of office before the President. On the other hand,
+
+the President upon advice, and the Attorney-General by himself had contended that in order to qualify
+Mr. Justice Apaloo as the Chief Justice, the provisions of article 127 (1) must be complied with. Very
+much aware of the two legal but different interpretations, Mr. Justice Apaloo accepted nomination (which
+was endorsed by the Judicial Council) and he appeared before Parliament which did
+[p.655] of [1980] GLR 637
+not approve of his appointment. Conformably with his own conduct, Mr. Justice Apaloo, his privies and
+those claiming in the same interest are estopped from challenging the consequences of that conduct.
+The authorities cited range from conduct of a beneficiary accepting benefits in a will and in the next
+breath reprobating it—In re
+ 
+Lart; Wilkinison v. Blades [1896] 2 Ch. 788 to the doctrine of estoppel by
+election. One of the classical expositions of it is in United Australia, Ltd. v. Barclays Bank, Ltd. [1941]
+A.C. 1 per Lord Atkin at p. 30, H.L.:
+“On the other hand, if a man is entitled to one of two inconsistent rights it is fitting that when with full
+knowledge he has done an unequivocal act showing that he has chosen the one the cannot afterwards pursue
+the other, which after the first choice is by reason of the inconsistency no longer his to choose. Instances are
+the right of a principal dealing with an agent for an undisclosed principal to choose the liability of the agent
+or the principal: the right of a landlord where forfeiture of a lease has been committed to exact the forfeiture
+or to treat the former tenant as still tenant and the like. To those cases the statement of Lord Blackburn in
+Scarf v. Jardine ( (1882) 7 App.Cas. 345, 360) applies ‘where a man has an option to choose one or other of
+two inconsistent things when once he has made his election it cannot be retracted’.”
+Before the court enters upon the interpretation of the relevant provisions it would dispose of the
+arguments relating to the doctrines of estoppel urged upon it. The very first principle that is enshrined in
+the Constitution is in article 1 (2) which provides:
+“(2)
+ 
+This Constitution shall be the supreme law of Ghana and any other law found to be inconsistent with
+any provision of this Constitution shall, to the extent of the inconsistency, be void and of no effect.”
+This is the constitutional criterion by which all acts can be tested and their validity or otherwise
+established. A plaintiff under article 1 (2) of the Constitution reed not have any community of interest
+with any person or authority. His community of interest is with the Constitution.
+Neither the Chief Justice nor any other person in authority can clothe himself with conduct which the
+Constitution has not mandated. To illustrate this point if the Judicial Council should write a letter of
+dismissal to a judge of the Superior Court
+ 
+of Judicature and that judge either through misinterpretation of
+the Constitution or indifference signifies acceptance of his dismissal, can it be said that
+[p.656] of [1980] GLR 637
+he cannot subsequently resile from his own acceptance or that having accepted his dismissal, he is
+estopped by conduct or election from challenging the validity of the dismissal? This court certainly thinks
+not. The question whether an act is repugnant to the Constitution can only be determined by the Supreme
+Court. It is that court which can pronounce on the law.
+The decision of Mr. Justice Apaloo to appear before Parliament cannot make any difference to the
+interpretation of the relevant article under consideration unless that decision is in accordance with the
+postulates of the Constitution. It is indeed the propriety of the decision which is under challenge. This
+court does not think that any act or conduct which is contrary to the express or implied provisions of the
+Constitution can be validated by equitable doctrines of estoppel. No person can make lawful what the
+Constitution says is unlawful. No person can make unlawful what the Constitution says is lawful. The
+conduct must conform to due process of law as laid down in the fundamental law of the land or it is
+
+unlawful and invalid.
+The exhibits tendered to the court do indicate that Mr. Justice Apaloo, though modest enough to admit
+that on matters of interpretation the best of legal brains can differ, protested at the legal interpretation
+being proffered by the Attorney-General on the various clauses dealing with his status in the Constitution.
+Before the Appointments Committee of Parliament he again protested and the chairman said:
+“The position is that this committee is acting on behalf of Parliament. We are not a judicial body and we are
+not in a position to pronounce on the legal question you are raising. In other words, as to your status. All that
+I can say is that my invitation as chairman of the committee was addressed to you on the strength of a letter
+addressed by the President to the Speaker, which was referred to this committee and that letter did say that
+you have been nominated for appointment to two positions-first as Chief Justice and second as a member of
+the new Supreme Court. It is on the basis of that I addressed this letter to you. I would say that the committee
+is not in a position to pronounce on the legality of your status.”
+The court is unable to accept the submission of the Attorney-General regarding estoppel by election and
+accordingly dismisses it.
+The court now turns to the subject-matter of its main concern and the first object of its inquiry is what
+was the status in the judicial system of Mr. Justice Apaloo immediately before 24 September 1979?
+[p.657] of [1980] GLR 637
+We think it is pertinent at this stage for the court to make a very brief excursion into the judicial history of
+this country’s immediate past beginning with the Constitution of the Second Republic. Such an excursion
+should illuminate our path and, at the same time, act as a beacon towards the understanding of the judicial
+structure as it existed before the end of the decade.
+The courts, before 24 September 1979 derived their existence and functions from the Constitution, 1969.
+Under the heading “THE JUDICIARY,” sub-headed The Superior Court of Judicature, there were these
+words which do find their echo in the Constitution, 1979. Article 102 (1) and (4) of the Constitution,
+1969, reads:
+“102.
+ 
+(1)
+ 
+The judicial power of Ghana shall be vested in the Judiciary of which the Chief Justice shall be
+the Head; and accordingly no organ or agency of the executive shall be given any final judicial
+power.
+(4)
+ 
+The Judiciary shall consist of the Supreme Court of Ghana, the Court of Appeal and the High
+Court of Justice which shall be the superior courts of record and which shall constitute one
+Superior Court of Judicature, and such other inferior and traditional Courts as Parliament may
+by law establish.”
+At its creation in 1969, the hierarchy of the superior courts was identical, both in respect of the
+composition and functions of the courts, to the hierarchy as it exists now under the Constitution, 1979.
+The procedures of appointment of the Chief Justice, under the Constitution, 1969, were distinct and
+different from those of the judges of the superior courts. Article 115 (1) of the Constitution, 1969,
+provides:
+“115.
+ 
+(1)
+ 
+The Chief Justice shall be appointed by the President, acting in consultation with the Council
+of State, by warrant under his hand and the Presidential Seal.”
+The other judges of the Superior Court of Judicature were appointed by the President by warrant under
+his hand and the Presidential Seal acting in accordance with the advice of the Judicial Council: see the
+Constitution, 1969, art. 115 (2). As Nana Akufo-Addo aptly put it, the Chief Justice in the 1969
+Constitution had a unique personality: He was both a member and head of that one composite institution
+known as the Superior Court of Judicature. It was by virtue of his being the head that he was the president
+
+of all component parts in the structure.
+This was then the state of affairs when the events of 13 January 1972 occurred; there was a change of
+government. The first Decree
+[p.658] of [1980] GLR 637
+was
+ 
+the
+ 
+National
+ 
+Redemption
+ 
+Council
+ 
+(Establishment)
+ 
+Proclamation,
+ 
+1972
+ 
+which
+ 
+suspended
+ 
+the
+Constitution. Section 4 (a) and (c) of the Proclamation, however, retained the judiciary and its functions
+by providing that:
+“(4)
+ 
+Notwithstanding the suspension of the Constitution, and until provision is otherwise made by law:—
+(a)
+ 
+all Courts in existence immediately before the 13th day of January, 1972 shall continue in
+existence with the same powers, duties, functions and composition as they had immediately
+before that date; . . .
+(c)
+ 
+all judges and every other person holding any office or post in the Judicial Service immediately
+before the 13th day of January, 1972 shall continue in that office or post upon the same terms
+and conditions as before that date and shall discharge the same functions as were prescribed in
+relation to that office or post under any enactment immediately before the said date.”
+On 5 September 1972 the Supreme Court as established under the Constitution, 1969, was abolished by
+the Courts (Amendment) Decree, 1972 (N.R.C.D. 101). Articles 103 to 111 of the Constitution, 1969
+which were referable to the Supreme Court were repealed by N.R.C.D. 101, s. 5 (5). Though one of the
+component parts was abolished the judicial structure remained intact. The head of the judiciary was still
+the Chief Justice, the Court of Appeal and the High Court constituted one Superior Court of Judicature
+and the omnipresence of the Chief Justice within the mechanism was retained.
+This was then the state of affairs when on 13 June 1977 Fred Kwasi Apaloo was appointed Chief Justice.
+His warrant of appointment is revealing. This warrant was tendered by consent. It is headed: “Warrant of
+appointment of a Judge of the Superior Court of Judicature . . .” The warrant identified his status in the
+hierarchy, as “The Chief Justice of the Republic of Ghana.”
+This court concludes that on 23 September 1979 the incumbent Chief Justice was Mr. Justice F. K.
+Apaloo who was also the head of the judiciary. This court is unable to accept the contention of the learned
+Attorney-General that he was a Chief Justice of a system which ended with the Court of Appeal and
+therefore was a Chief Justice of the Court of Appeal. There was no such office before 24 September 1979
+known as Chief Justice of the Court of Appeal.
+This brings us to the next and final object of inquiry: What becomes of the status of the Chief Justice
+upon the coming into force of the Constitution, 1979? It cannot be gainsaid that upon the
+[p.659] of [1980] GLR 637
+coming into force of the Constitution of the Third Republic, the Constitution of the Second Republic was
+abrogated and with it, all the institutions which it gave birth to, were quietly buried, amongst them, the
+judiciary which was in existence before. The new Constitution immediately created various institutions
+for the orderly governance of the people of this country, foremost amongst them the judiciary.
+A comparative study of the relevant provisions of the two judicial institutions manifests that with a few
+important modifications, there is hardly any departure in principle between them. Article 114 (1) of the
+Constitution, 1979, is copied word for word from the Constitution, 1969. Article 114 (5) is also a
+verbatim reproduction from article 102 (4) of the Constitution, 1969, and reads:
+“(5)
+ 
+The Judiciary shall consist of the Supreme Court of Ghana, the Court of Appeal and the High Court of
+
+Justice which shall be the superior courts of record and which shall constitute one Superior Court of
+Judicature, and such other inferior Courts and traditional Courts as Parliament may by law establish.”
+In both constitutions there is established one Superior Court of Judicature. Having thus established one
+Superior Court of Judicature, both constitutions expound the composition of each component part, its
+jurisdiction and functions and privileges and the procedures of appointment into each office.
+The Chief Justice in both constitutions presided over all the courts within the Superior Court of
+Judicature. It is self-evident that the Chief Justice is the president and member of all those courts not by
+reason of a direct or specific appointment to any of them but by virtue of his status as the Head of the
+Judiciary, that one Superior Court of Judicature. True, the institution during the decade before the present
+Constitution lost one of its departments, but was not dismembered; it remained intact and remained as one
+Superior Court of Judicature. At the apex of the judicial pyramid sat the Chief Justice, as Head of the
+Judiciary and a member of the Superior Court of Judicature. The court concludes that the office held by
+Mr. Justice Apaloo immediately before the coming into force of the Constitution, 1979 was that of the
+Chief Justice of the Republic and of the Head of the Judiciary.
+What then is the interpretation of the pertinent clauses (8) and (9) of article 127 which has given rise to
+this great controversy? We start by reminding ourselves of the major aids to interpretation bearing in
+mind the goals that the Constitution intends to achieve. Our first duty is to take the words as they stand
+and to give them their true
+[p.660] of [1980] GLR 637
+construction having regard to the language of the provisions of the, Constitution, always preferring the
+natural meaning of the words involved, but nonetheless giving the words their appropriate construction
+according to the context per Viscount Simon L.C. in Barnard v. Gorman [19411 A.C. 378 at p. 384, H.L.
+Fortunately, in this case, the phrase “shall be deemed” which has to be interpreted in clause (8) of article
+127 is employed and used in several parts of the Constitution and thus, an aid towards ascertaining its true
+meaning. A few examples of the user of the phrase “shall be deemed” will illustrate the point. Thus
+section 1 of the Transitional Provisions of the Constitution, 1979, Sched. 1 provides:
+
+“FIRST PRESIDENT
+
+1.
+ 
+(1)
+ 
+Notwithstanding anything to the contrary contained in this Constitution, the person duly
+elected President of Ghana under the law in force immediately before the coming into force of
+this
+ 
+Constitution
+ 
+shall
+ 
+be
+ 
+deemed
+ 
+to
+ 
+have
+ 
+been
+ 
+duly
+ 
+elected
+ 
+for
+ 
+the
+ 
+purposes
+ 
+of
+ 
+this
+Constitution.
+(2)
+ 
+The said President shall assume office as President on the date of the coming into force of this
+Constitution notwithstanding anything to the contrary contained in this Constitution.”
+(The emphasis is ours.) The second illustration of the use of the phrase “shall be deemed” appears in
+section 2 of the transitional provisions concerning the First Parliament. The section provides:
+“2.
+ 
+(1)
+ 
+Notwithstanding anything to the contrary contained in this Constitution, the persons duly
+elected as members of Parliament under the law in force immediately before the coming into
+force of this Constitution shall be deemed to have been duly elected members of Parliament for
+the purposes of this Constitution.”
+(The emphasis is ours.) The third illustration, is within the main body of the Constitution dealing with
+existing offices where article 161 provides:
+“161.
+ 
+A public officer holding office as such immediately before the coming into force of this Constitution
+shall be deemed to have been appointed under this Constitution to hold office as such in accordance
+with the provisions of this Constitution.”
+
+The phrase “shall be deemed” is a legislative device which is resorted to when a thing is said to be
+something else which it, in fact, is not. When a thing is to be “deemed” something else, it is to be treated
+as that something else with its attendant consequences.
+[p.661] of [1980] GLR 637
+Finally we will refer to the definition of it in the House of Lords case of St. Aubyn v. Attorney-General
+[19521 A.C. 15 per Lord Radcliffe at p. 53, H.L. which is not binding upon us, but is a very persuasive
+authority:
+“Now subsection (2) is concerned to declare what persons are to be ‘deemed’ to have made a transfer of
+property to a company. It identifies them rather, unhappily, not so much by what they have done as by the
+results of what they or other persons have done. The word ‘deemed’ is used a great deal in modern
+legislation. Sometimes it is used to impose for the purposes of a statute an artificial construction of a word or
+phrase that would not otherwise prevail. Sometimes it is used to put beyond doubt a particular construction
+that might otherwise be uncertain. Sometimes it is used to give a comprehensive description that includes
+what is obvious, what is uncertain and what is, in the ordinary sense, impossible.”
+Applying the definition of the word “deemed” to section 1 (1) of the transitional provisions to the
+Constitution it means that though the First President was not appointed under the Constitution he shall for
+all purposes exercise all the functions of the President as if he had been so appointed under the
+Constitution. But for this provision he would have had to stand for fresh elections. It is the same meaning
+which attaches to the provision in section 2 (1) of the transitional provisions relating to a member of
+Parliament elected before the coming into force of the Constitution. It is by virtue of this provision that a
+member of Parliament is considered as having been elected under the Constitution when, in fact, he has
+not been so elected.
+Similarly clause (8) of article 127 declares in no uncertain terms that a justice of the Superior Court of
+Judicature (that one composite institution) holding office as such immediately before the coming into
+force of the Constitution shall continue to hold the office he was holding as if he had been appointed by
+the processes laid down in the Constitution. In the case of a justice of the High Court or a justice of the
+Court of Appeal, he shall be considered to have been appointed upon the advice of the Judicial Council
+by the President even though no such advice has been tendered and no appointment made. He is only
+required to take the oath under clause (9) to complete the process of his appointment.
+The Chief Justice was a member and head of the Superior Court of Judicature. At the expense of being
+repetitive, the court has shown the office he held, immediately before the coming into force of the
+Constitution. He is a member of the class of persons or justices
+[p.662] of [1980] GLR 637
+referred to in clause (8). Accordingly this court holds that upon the coming into force of the Constitution
+he became the Chief Justice by the due process of law holding the identical or equivalent office as he held
+before the coming into force of the Constitution. The interpretation this court has adopted is in harmony
+with the user of the phrase in other provisions of the Constitution.
+Lest it be said that undue weight is being given to the letter of the law, this court makes haste and turns to
+the Proposals of the Constitutional Commission first as an aide-memoire, and secondly, to extract the
+intentions of the framers of the Constitution therefrom. The Proposals of the Constitutional Commission,
+para. 204 at p. 72 declare in loud terms the intent and purpose of clauses (8) and (9) of article 127. The
+paragraph provides:
+“204.
+ 
+As part of the scheme to ensure the independence and integrity of the judiciary, we have proposed a
+
+provision stipulating that judges of the Superior Court of Judicature in office on the entry into force of
+the Constitution shall be deemed to have been appointed under, and shall hold office pursuant to the
+provisions of the Constitution. We feel that there is need and justification for this proposal which is to
+prevent the arbitrary dismissal of judges merely because of the promulgation of a new Constitution.
+The principle that judges should hold office during good behaviour is, in our view, so important, that
+the coming into force of a new Constitution should not be considered as displacing its validity and
+continued application.”
+This was the rationale behind clauses (8) and (9) of article 127.
+If this court has found the submissions of the learned Attorney- General, a distinguished lawyer,
+untenable and inconclusive, it is due to the weakness of the position he attempts to defend. There is no
+provision in either the Constitution or its transitional provisions of the office of “transitional Chief
+Justice” or a Chief Justice of the Court of Appeal as he has laboured to impress upon us.
+In the light of the constitutional interpretation of article 127 (8) and (9) we do not feel called upon to
+examine article 161 which gives constitutional protection to public officers in offices existing before the
+promulgation against arbitrary dismissals and victimisation. It is, however, not unworthy of observation,
+that “to make assurance double sure” the framers of the Constitution provided additional protection in
+Part IV of the transitional provisions, section 7 (1) of which reads:
+“7.
+ 
+(1)
+ 
+A person who immediately before the coming into force of this Constitution held or was acting
+in an office in existence immediately before the coming into force of this
+[p.663] of [1980] GLR 637
+Constitution shall be deemed to have been appointed as far as is consistent with the provisions
+of this Constitution to hold of to act in the equivalent office under this Constitution.”
+Much emphasis was placed on the expression “as far as is consistent with the provisions of this
+Constitution” as used in section 7 (1). It was contended that being the Chief Justice who was the head of
+the Court of Appeal as it existed immediately before the coming into force of the Constitution, there
+being no equivalent Chief Justice of the Court of Appeal under the Constitution, 1979 the incumbent
+Chief Justice would cease to hold office upon the appointment of the full complement of the justices of
+the Supreme Court.
+There is a fallacy in this argument. The Chief Justice is sui juris. As has already been demonstrated the
+Chief Justice under our system of government is appointed as such. He could be a member of any of the
+courts before such an appointment. He could be appointed straight from the bar. His appointment would
+be that of the Chief Justice all the same. When so appointed he becomes the Head of the Judiciary. In his
+capacity as the Chief Justice he automatically becomes a member of each of the courts established by the
+Constitution. He is not a Chief Justice by virtue of his being a member of a particular court. He is a
+member of the Supreme Court, the Court of Appeal and the High Court of Justice, because he is the Chief
+Justice. This is the system as it existed immediately before the coming into force of the Constitution,
+1979. That is still the system existing today.
+Again, as we have demonstrated, on the coming into force of the Constitution, the incumbent Chief
+Justice by virtue of the provisions of clauses (8) and (9) of article 127, became, in the words of clause (1)
+of article 114, “the Head [of the Judiciary]” in which judiciary is vested the judicial power of Ghana. That
+is the equivalent office to which, under the Constitution, 1979, the incumbent Chief Justice was appointed
+because he held that office immediately before the coming into force of the Constitution. That is clearly
+consistent with the provisions of clauses (8) and (9) of article 127. Once the incumbent became Chief
+Justice, as the Head of the Judiciary, by virtue of the provisions of clauses (8) and (9) of article 127, it
+would clearly be inconsistent with the provisions of article 128 of the Constitution, he being equally a
+
+justice of the Superior Court of Judicature, to remove the Chief Justice by recourse to clause (1) of article
+127. Once he was constitutionally in office, his removal, whatever arguments are raised, can only be
+constitutionally effected by invoking the relevant provisions of article 128. Any other manner, any other
+[p.664] of [1980] GLR 637
+method, would clearly be inconsistent with the provisions of Constitution.
+The ideals which the framers of the Constitution were at by the letter and spirit of this Constitution to
+establish ought to be respected and adhered to. They are justice and fair play; abhorrence of arbitrariness
+and discrimination; victimisation and vindictiveness; the protection of the individual and his fundamental
+human within the walls of the Constitution. We believe it was in pursuance of these ideals that the
+framers of the Constitution, formulated their proposals amongst which are article 127 (8) and (9) and
+approved by the Constituent Assembly. Conformably with ideals, this court finds both by its letter and
+spirit that upon a proper and true construction of article 127 (8) and (9), the thief was amongst the class of
+justices which was deemed to have retained the various offices upon their taking the oaths. It is this letter
+and spirit which animate our judgment.
+
+DECISION
+
+Incumbent Chief Justice declared to be Chief Justice under Constitution, 1979.
+
+K. A. A. M.
+
