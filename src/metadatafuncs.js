@@ -257,19 +257,30 @@ function getHeadNotes(s) {
     let begin = indexOf(s, "HEADNOTES");
 
     if (begin == -1) {
-        begin = indexOf(s, "Before") + 100;
+        begin = indexOf(s, "Before", "Coram", 0, 300);
+
+        if (begin == -1) return [];
+
+        begin += 200;
     }
 
-    begin = Math.min(begin, s.length);
-
-    end = Math.min(s.length, begin + 3000);
+    end = Math.min(s.length, begin + 17000);
 
 
-    s = s.substring(begin, end);
+    let str = s.substring(begin, end);
 
-    const regex = /\[\d{1,2}\]\s*(.*)/g;
+    const regex = /\n[A-Z]+\n/;
 
-    return s.match(regex);
+    let pos = str.search(regex);
+
+    if (pos == -1) {
+        pos = str.length;
+    }
+
+    str = str.substring(0, pos).trim();
+    let results = str.split(/\n\s*\(\d{1,2}\)\s+/);
+
+    return results;
 }
 
 function getNatureOfProceedings(s) {

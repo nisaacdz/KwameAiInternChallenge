@@ -1,8 +1,8 @@
 const input = "This is some text.\nMORE TEXT\nAnd even more text.\n";
 
-const regex = /(.+)\n[A-Z ]+\n/;
-const match = regex.exec(input)
+const regex = /\s*\(\d{1,2}\)\s*[A-Za-z.,();: ]+\n/
+const match = input.match(regex);
 
-if (match) {
-  console.log(match[0]); // Logs "This is some text."
+for (var i = 0; i < match.length; i++) {
+  console.log(match[i])
 }
