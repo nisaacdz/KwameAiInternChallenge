@@ -1,5 +1,8 @@
-const str = "\n COURT OF APPEAL, SITTING AS THE SUPREME\n COURT; ACCRA\n\n Date:\n";
-const match = str.match(regex);
+const input = "This is some text.\nMORE TEXT\nAnd even more text.\n";
+
+const regex = /(.+)\n[A-Z ]+\n/;
+const match = regex.exec(input)
+
 if (match) {
-  console.log(match[1]);
+  console.log(match[0]); // Logs "This is some text."
 }

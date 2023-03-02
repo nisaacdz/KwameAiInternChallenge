@@ -2,42 +2,26 @@
     "source": "Ghana Law Reports",
     "booksReferredTo": [],
     "casesReferredTo": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "and (9). In view of the elaborate and erudite arguments that have been placed on the article by both",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Vanderpuije v. Akwei [1971] 1 G.L.R. 242.",
+        "Appiah v. Attorney-General, Court of Appeal, Accra, 25 September 1970, unreported; digested in",
+        "Guaranty Trust Company of New York v. Hannay & Co. [1915] 2 K.B. 536; 84 L.J.K.B. 1465; 113",
+        "Clark v. Epsom Rural District Council [1929] 1 Ch. 287; 98 L.J.Ch. 88; 140 L.T. 246; 93 J.P. 67;",
+        "Akyem Abuakwa Stool v. Adansi Stool (1957) 3 W.A.L.R. 171; sub nom. Nana Ofori Atta v. Nana",
+        "Dyson v. Attorney-General [1911] 1 K.B. 410; 80 L.J.K.B. 531; 103 L.T. 707; 27 T.L.R. 143; 55",
+        "Powell et al v. McCormack, Speaker of the House of Representatives 395 U.S. 486, 23 L.Ed. 2d.",
+        "Ahenkora v. Ofe (1957) 3 W.A.L.R. 145, C.A.",
+        "United Australia, Ltd. v. Barclays Bank, Ltd. [1941] A.C. 1; [1940] 4 All E.R. 20; 109 L.J.K.B.",
+        "Barnard v. Gorman [1941] A.C. 378; [1941] 3 All E.R. 45; 110 L.J.K.B. 557; 165 L.T. 308; 105",
+        "St. Aubyn v. Attorney-General [19521 A.C. 15; [1951] 2 All E.R. 473, H.L."
     ],
     "caseId": {
         "number": "",
         "type": ""
     },
     "court": {
-        "name": "COURT OF APPEAL",
+        "name": "SITTING AS THE SUPREME COURT",
         "location": {
-            "city": " ACCRA",
+            "city": "ACCRA",
             "country": "GHANA"
         }
     },
@@ -49,10 +33,10 @@
     "headNotes": null,
     "indices": [],
     "judgement": {
-        "date": "undefined-unknown-undefinedT00:00:00.000Z",
-        "year": null,
-        "month": "",
-        "day": null
+        "date": "1980-09-23T00:00:00.000Z",
+        "year": 1980,
+        "month": "september",
+        "day": 23
     },
     "judges": [
         "SOWAH",
@@ -66,12 +50,12 @@
     "mediaNeutralCitation": "",
     "presidingJudge": "",
     "partiesOfSuit": {
-        "Plaintiff/Appellant": "TUFFUOR",
-        "Defendant/Respondent": "ATTORNEY"
+        "Plaintiff/Appellant": "TUFFUOR ",
+        "Defendant/Respondent": " ATTORNEY-GENERAL"
     },
     "statutesReferredTo": [],
     "title": {
-        "long": "TUFFUOR vs ATTORNEY",
-        "short": "TUFFUOR vs ATTORNEY"
+        "long": "TUFFUOR  vs  ATTORNEY-GENERAL",
+        "short": "TUFFUOR  vs  ATTORNEY-GENERAL"
     }
 }

@@ -192,7 +192,6 @@ function getCourt(s) {
     let sep = /[,:;]/;
 
     let res = str.substring(begin, end).trim();
-    console.log(res);
 
     let vals = res.split(sep);
 
@@ -274,15 +273,30 @@ function getHeadNotes(s) {
 }
 
 function getNatureOfProceedings(s) {
-    let begin = s.indexOf('NATURE OF PROCEEDINGS');
-    if (begin != -1) {
-        s = s.substring(begin, begin + 1000);
-        const regex = /^\s*([^\n]+(\n[^\n]+)*)/;
-        const match = s.match(regex);
-        return match[1];
-    } else {
-        return "";
+    const keyphrase = 'NATURE OF PROCEEDINGS';
+    let begin = s.indexOf(keyphrase);
+    begin += keyphrase.length;
+
+    if (begin == -1) return "";
+
+    let str = s.substring(begin, begin + 500);
+
+    begin = 0;
+    let end = str.length;
+
+    const cm = /[\s:]+/;
+
+    while (begin < end && str[begin].match(cm)) {
+        begin += 1;
     }
+
+    if (begin == end) return "";
+
+    const regex = /\n[A-Z]+\n/;
+    const pos = str.search(regex);
+    if (pos == -1) return "";
+
+    return str.substring(0, pos).trim();
 }
 
 

@@ -1,9 +1,9 @@
 let MetaData = require('./metadata');
 const funcs = require('./metadatafuncs');
-const Reader = require('./readfxns');
+const Reader = require('./iofxns');
 const fs = require('fs');
 
-Reader.extractTextFromPDF('../procedure/PDF Cases/unscanned/tuffuor_v._attorney-general.pdf').then((text) => {
+Reader.extractTextFromPDF('../procedure/PDF Cases/unscanned/v2').then((text) => {
     let obj = new MetaData();
     fillMetaData(obj, text);
 
@@ -14,12 +14,6 @@ Reader.extractTextFromPDF('../procedure/PDF Cases/unscanned/tuffuor_v._attorney-
         console.log('File has been updated with new content.');
     });
 });
-
-
-let obj = new MetaData();
-//fillMetaData(obj, content)
-
-// let jsonstr = JSON.stringify(obj, null, 4);
 
 function fillMetaData(obj, content) {
     let judges = funcs.getJudges(content);
