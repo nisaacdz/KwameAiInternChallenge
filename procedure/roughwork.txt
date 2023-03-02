@@ -2,13 +2,13 @@ Fields Required for meta_data.json
 01. source -- string
 02. booksReferredTo -- [string]
 03. casesReferredTo -- [string] -- marked
-04. caseId -- {number-- string, type -- enum}
+04. caseId -- {number-- string, type -- string}
 05. court -- {name -- string, location -- {city -- string, country -- string} } -- marked
 06. counsel -- {Plaintiff/Appellant -- [string], Defendant/Respondent -- [string]}
 07. editorialNote -- string
 08. headNotes -- [string]
 09. indices -- [string]
-10. judgement -- {data -- string, year -- number, month -- string,  day -- number}
+10. judgement -- {data -- string, year -- number, month -- string,  day -- number} -- marked
 11. judges -- [string] -- marked
 12. lawReportsCitations -- [string]
 13. natureOfProceedings -- string
