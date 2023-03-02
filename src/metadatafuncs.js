@@ -117,11 +117,9 @@ function getCasesReferredTo(s) {
 
     if (index == -1) return [];
 
-    const temp = /\s+\(\d{1,2}\)\s+(.+)\n/g;
+    const regex = /\s+\(\d{1,2}\)\s+(.+)\n/g;
 
-    const regex = /\s+\(\d{1,2}\)\s+(.+)\n(?![ \t]*[A-Z]+\s*\n)/g
-
-    let str = s.substring(index, index + 5000);
+    let str = s.substring(index, index + 3000);
 
     const matches = str.match(regex);
     const bodies = [];
