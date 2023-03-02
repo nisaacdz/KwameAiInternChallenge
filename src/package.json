@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nisaacdz/KwameAiInternChallenge#readme",
   "dependencies": {
     "cloudconvert": "^2.3.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "pdfjs-dist": "^3.4.120"
   }
 }
