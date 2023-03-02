@@ -36,4 +36,5 @@ async function extractTextFromPDF(pdfPath) {
     return fullText;
 }
 
+
 module.exports = { extractTextFromPDF, readFileToText };

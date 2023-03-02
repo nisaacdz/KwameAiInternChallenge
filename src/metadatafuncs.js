@@ -112,19 +112,27 @@ function getSource(s) {
 
 
 function getCasesReferredTo(s) {
-    let begin = indexOf(s, 'CASES REFERRED TO');
+    let keyword = 'CASES REFERRED TO';
+    const index = s.indexOf(keyword);
 
-    if (s[begin] == ':') {
-        begin = begin + 1;
+    if (index == -1) return [];
+
+    const temp = /\s+\(\d{1,2}\)\s+(.+)\n/g;
+
+    const regex = /\s+\(\d{1,2}\)\s+(.+)\n(?![ \t]*[A-Z]+\s*\n)/g
+
+    let str = s.substring(index, index + 5000);
+
+    const matches = str.match(regex);
+    const bodies = [];
+
+    for (let i = 0; i < matches.length; i++) {
+        const match = matches[i];
+        const body = match.replace(regex, "$1");
+        bodies.push(body);
     }
 
-    s = s.substring(begin)
-
-    //const regex = /(?<=^\(\d+\)\s).*?(?=\s*\(\d+\)\s|\s*$)/gm; captures (2013)
-    // const regex = /(?<=^\(\d{2}\)\s).*?(?=\s*\(\d{2}\)\s|\s*$)/gm; doesn't capture (1)
-    const regex = /(?<=^\(\d{1,2}\)\s).*?(?=\s*\(\d{1,2}\)\s|\s*$)/gm;
-
-    return s.match(regex);
+    return bodies;
 }
 
 function getParties(s) {
