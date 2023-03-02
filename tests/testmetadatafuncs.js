@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const content = fs.readFileSync('../sample.txt', 'utf-8');
 
-testHeadNotes()
+testCounsel()
 
 function testCasesReferredTo() {
     let result = funcs.getCasesReferredTo(content);
@@ -44,4 +44,8 @@ function testNatureOfProceedings() {
 function testHeadNotes() {
     let result = funcs.getHeadNotes(content);
     console.log(result);
+}
+
+function testCounsel() {
+    let result = funcs.getCounsel(content);
 }

@@ -3,7 +3,7 @@ const funcs = require('./metadatafuncs');
 const Reader = require('./iofxns');
 const fs = require('fs');
 
-Reader.extractTextFromPDF('../procedure/PDF Cases/unscanned/v2').then((text) => {
+Reader.extractTextFromPDF('../procedure/pdfs/unscanned/v2.pdf').then((text) => {
     let obj = new MetaData();
     fillMetaData(obj, text);
 

@@ -117,25 +117,29 @@ function getSource(s) {
 
 function getCasesReferredTo(s) {
     let keyword = 'CASES REFERRED TO';
-    const index = s.indexOf(keyword);
+    const index = s.indexOf(keyword) + keyword.length + 1;
 
     if (index == -1) return [];
 
-    const regex = /\s+\(\d{1,2}\)\s+(.+)\n/g;
+    // const regex = /\s+\(\d{1,2}\)\s+(.+)\n/g;
 
     // Searches the next 3000 chars after encountering the keyword header
     let str = s.substring(index, index + 3000);
 
-    const matches = str.match(regex);
-    const bodies = [];
+    let fin = /\n\s*[A-Z][A-Z. ]*\n/;
+    let pos = str.search(fin);
 
-    for (let i = 0; i < matches.length; i++) {
-        const match = matches[i];
-        const body = match.replace(regex, "$1");
-        bodies.push(body);
+    if (pos == -1) {
+        pos = str.length;
     }
 
-    return bodies;
+    let sep = /\s+\(\d{1,2}\)\s+/;
+
+    str = str.substring(0, pos);
+
+    let vals = str.split(sep);
+
+    return vals;
 }
 
 function getParties(s) {
@@ -206,7 +210,7 @@ function getCourt(s) {
     }
 
     return {
-        "name": trim(vals[vals.length - 2]).trim(),
+        "name": trim(vals[1]).trim(),
         "location": {
             "city": vals[vals.length - 1].trim(),
             "country": "GHANA"
@@ -269,7 +273,7 @@ function getHeadNotes(s) {
 
     let str = s.substring(begin, end);
 
-    const regex = /\n[A-Z]+\n/;
+    const regex = /\n\s*[A-Z][A-Z. ]*\n/;
 
     let pos = str.search(regex);
 
@@ -290,7 +294,7 @@ function getNatureOfProceedings(s) {
 
     if (begin == -1) return "";
 
-    let str = s.substring(begin, begin + 500);
+    let str = s.substring(begin, begin + 1000);
 
     begin = 0;
     let end = str.length;
@@ -303,12 +307,37 @@ function getNatureOfProceedings(s) {
 
     if (begin == end) return "";
 
-    const regex = /\n[A-Z]+\n/;
+    const regex = /\n\s*[A-Z][A-Z. ]*\n/;
     const pos = str.search(regex);
-    if (pos == -1) return "";
+    if (pos == -1)  {
+        pos = str.length;   
+    }
 
     return str.substring(0, pos).trim();
 }
 
 
-module.exports = { getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
+function getCounsel(s) {
+    let begin = s.indexOf('COUNSEL');
+
+    if (begin == -1) return {
+        "Plaintiff/Appellant": [],
+        "Defendant/Respondent": []
+    };
+
+    let str = s.substring(begin + 7, begin + 500);
+    const regex = /\n\s*[A-Z][A-Z. ]*\n/;
+
+    let pos = str.search(regex);
+
+    if (pos == -1) {
+        return pos = str.length;
+    }
+
+    let content = str.substring(0, pos);
+
+    console.log(content);
+}
+
+
+module.exports = { getCounsel, getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
