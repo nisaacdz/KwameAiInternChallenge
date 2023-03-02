@@ -1,5 +1,5 @@
-const regex = /\s*.*\s+(v(?:s\.?|\.?)?)\s+.*\s*\n/g;
-
-const text = `\nSome text1 vs. Some other text\nMore text vs More other text\nEven more text v Even more other text\n`;
-const matches = regex.exec(text)
-console.log(matches[0]);
+const str = "\n COURT OF APPEAL, SITTING AS THE SUPREME\n COURT; ACCRA\n\n Date:\n";
+const match = str.match(regex);
+if (match) {
+  console.log(match[1]);
+}

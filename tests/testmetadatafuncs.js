@@ -1,9 +1,10 @@
+const { count } = require('console');
 const funcs = require('../src/metadatafuncs');
 const fs = require('fs');
 
 const content = fs.readFileSync('../sample.txt', 'utf-8');
 
-testParties()
+testJudges()
 
 function testCasesReferredTo() {
     let result = funcs.getCasesReferredTo(content);
@@ -23,5 +24,15 @@ function testJudgement() {
 
 function testParties() {
     let result = funcs.getParties(content);
+    console.log(result);
+}
+
+function testCourt() {
+    let result = funcs.getCourt(content);
+    console.log(result);
+}
+
+function testJudges() {
+    let result = funcs.getJudges(content);
     console.log(result);
 }

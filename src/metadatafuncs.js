@@ -16,6 +16,10 @@ function getDate(s) {
     return result.trim()
 }
 
+function trim(str) {
+    return str.replace(/\n/g, " ");
+}
+
 function indexOf(s, target, other = target, begin = 0, end = s.length) {
     end = Math.min(end, s.length);
     let l1 = target.length;
@@ -156,30 +160,56 @@ function getParties(s) {
 
 
 function getCourt(s) {
-    let begin = indexOf(s, 'Division');
+    let str = s.substring(0, 300);
+    let begin = str.indexOf('Division');
 
-    if (s[begin] == ':') {
-        begin = begin + 1;
+    if (begin == -1) {
+        return "";
     }
 
-    let max_limit = begin + 150;
+    begin += 8;
+
     let cur = begin;
-    while (cur < max_limit) {
-        if (s.substring(cur, cur + 4) == 'Date') {
-            max_limit = cur - 1;
+    let end = begin + 300;
+
+    let cm = /[:;,\s]/;
+    let cap = /[A-Z]/;
+
+    while (cur < end) {
+        while (cur < end && str[cur].match(cm)) {
+            cur += 1;
         }
-        cur = cur + 1;
+        let curWord = cur;
+        while (cur < end && str[cur].match(cap)) {
+            cur += 1;
+        }
+
+        if (cur < end && !str[cur].match(cm)) {
+            end = curWord;
+        }
     }
-    let regex = /[,;]/;
 
-    let res = s.substring(begin, max_limit).trim()
+    let sep = /[,:;]/;
 
-    let vals = res.split(regex);
+    let res = str.substring(begin, end).trim();
+    console.log(res);
+
+    let vals = res.split(sep);
+
+    if (vals.length < 2) {
+        return {
+            "name": trim(vals[vals.length - 1]).trim(),
+            "location": {
+                "city": null,
+                "country": "GHANA"
+            }
+        };
+    }
 
     return {
-        "name": vals[0],
+        "name": trim(vals[vals.length - 2]).trim(),
         "location": {
-            "city": vals[vals.length - 1],
+            "city": vals[vals.length - 1].trim(),
             "country": "GHANA"
         }
     };
@@ -187,13 +217,10 @@ function getCourt(s) {
 
 
 function getJudges(s) {
-    const cm = /[\s,.()]+/;
+    const cm = /[\s,;:.()]+/;
     const cap = /[A-Z]/;
 
     let begin = indexOf(s, 'Before', 'CORAM', 0, 800);
-    if (s[begin] == ':') {
-        begin = begin + 1;
-    }
 
     let end = Math.min(s.length, begin + 400);
     let cur = begin;
@@ -214,7 +241,7 @@ function getJudges(s) {
 
     let res = s.substring(begin, end);
 
-    const items = res.split(/[\s,]+AND[\s,]+|[,]/);
+    const items = res.split(/\s*[,:;]|AND\s*/);
 
     const judges = [];
     for (let i = 0; i < items.length; i++) {
