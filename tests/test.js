@@ -1,6 +1,5 @@
-const regex = /\s*[\s:;]*([a-z0-9\s]*)\s*\n/;
-const text = " \n: dlslsljljldpsdks;d;\n \n23 SEPTEMBER 1980\n\nBefore:";
-const matches = text.match(regex);
-let result = matches[1];
+const regex = /\s*.*\s+(v(?:s\.?|\.?)?)\s+.*\s*\n/g;
 
-console.log(result);
+const text = `\nSome text1 vs. Some other text\nMore text vs More other text\nEven more text v Even more other text\n`;
+const matches = regex.exec(text)
+console.log(matches[0]);

@@ -135,11 +135,22 @@ function getCasesReferredTo(s) {
 }
 
 function getParties(s) {
-    const regex = /([a-zA-Z\s.]+)\s(v|vs|v.)\s([a-zA-Z\s.]+)/;
-    const matches = regex.exec(s)[0].trim().split(regex);
+    let str = s.substring(0, 200);
+    // Matches Group of text + (either v, or vs, or v., or vs. ) + Another group of text
+    const regex = /\s*.*\s+(v(?:s\.?|\.?)?)\s+.*\s*\n/g;
 
-    let plaintiff = matches[1];
-    let defendant = matches[3];
+    let matches = regex.exec(str)[0];
+
+    if (!matches) {
+        return [];
+    }
+
+    matches = matches.trim();
+
+    matches = matches.split(/(v(?:s\.?|\.?)?)/);
+
+    let plaintiff = matches[0];
+    let defendant = matches[2];
     return [plaintiff, defendant];
 }
 
