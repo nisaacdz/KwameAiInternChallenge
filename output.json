@@ -28,8 +28,19 @@
         }
     },
     "counsel": {
-        "Plaintiff/Appellant": [],
-        "Defendant/Respondent": []
+        "Plaintiff/Appellant": [
+            "Nana Akufo-Addo",
+            "Dr. Prempeh",
+            "Tsatsu Tsikata",
+            "J. A. Glover",
+            "Mrs. Reindorf"
+        ],
+        "Defendant/Respondent": [
+            ".\nJoe\n \nReindorf",
+            "Attorney-General",
+            "Djabatey",
+            "Deputy\n \nAttorney-General"
+        ]
     },
     "editorialNote": "",
     "headNotes": [
@@ -71,6 +82,6 @@
     "statutesReferredTo": [],
     "title": {
         "long": "TUFFUOR  vs  ATTORNEY-GENERAL",
-        "short": "TUFFUOR  vs  ATTORNEY-GENERAL"
+        "short": "Nana Akufo-Addo, Dr. Prempeh, Tsatsu Tsikata, J. A. Glover, Mrs. Reindorf vs Nana Akufo-Addo, Dr. Prempeh, Tsatsu Tsikata, J. A. Glover, Mrs. Reindorf"
     }
 }

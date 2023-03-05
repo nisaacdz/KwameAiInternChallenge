@@ -41,9 +41,8 @@ class MetaData {
     this.court = court;
   }
 
-  setCounsel(plaintiff, defendant) {
-    this.counsel["Plaintiff/Appellant"] = plaintiff;
-    this.counsel["Defendant/Respondent"] = defendant;
+  setCounsel(counsel) {
+    this.counsel = counsel;
   }
 
   setEditorialNote(note) {

@@ -26,14 +26,17 @@ function fillMetaData(obj, content) {
     let judgement = funcs.getJudgement(date);
     let headnotes = funcs.getHeadNotes(content);
     let proceedings = funcs.getNatureOfProceedings(content);
+    let counsel = funcs.getCounsel(content);
+    let long_title = funcs.getLongTitle(counsel);
 
     obj.setPartiesOfSuit(parties[0], parties[1]);
     obj.setCasesReferredTo(refcases);
     obj.setSource(src);
     obj.setJudgement(judgement);
     obj.setJudges(judges);
-    obj.setTitle(parties[0] + " vs " + parties[1], parties[0] + " vs " + parties[1]);
+    obj.setTitle(parties[0] + " vs " + parties[1], long_title);
     obj.setCourt(court);
     obj.setHeadNotes(headnotes);
     obj.setNatureOfProceedings(proceedings);
+    obj.setCounsel(counsel);
 }

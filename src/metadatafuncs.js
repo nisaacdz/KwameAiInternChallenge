@@ -309,8 +309,8 @@ function getNatureOfProceedings(s) {
 
     const regex = /\n\s*[A-Z][A-Z. ]*\n/;
     const pos = str.search(regex);
-    if (pos == -1)  {
-        pos = str.length;   
+    if (pos == -1) {
+        pos = str.length;
     }
 
     return str.substring(0, pos).trim();
@@ -337,25 +337,57 @@ function getCounsel(s) {
 
     let content = str.substring(0, pos);
 
-    content = content.toLowerCase();
-    let split = /for\s+the\s+(plaintiff|appellant|defendant|respondent)/;
+    let split = /for\s+the\s+(plaintiff|appellant)/i;
     let pa = content.split(split);
+    let rg = /plaintiff|appellant/i;
+    let realpa = [];
 
-    if (pa.length < 2) return {
-        "fulltitle": "",
-        "plaintiff": [],
-        "defendant": []
+    for (var i = 0; i < pa.length; i++) {
+        if (pa[i] && pa[i].length > 0 && rg.test(pa[i])) {
+            continue;
+        }
+        realpa.push(pa[i]);
+    }
+
+    if (realpa.length < 2) return {
+        "Plaintiff/Appellant": [],
+        "Defendant/Respondent": []
     };
-
-    let ftitle = pa[0].trim() + " vs " + pa[1].trim();
-    console.log(ftitle);
-    /////GIANT TODO HERE
-    ////GIANT TODO HERE
-    //TODO
-    ////GIATNT TODO HERE
-    ////TODO
-    ///GIANT TODO HERE
+    
+    return {
+        "Plaintiff/Appellant": modify(realpa[0].trim()),
+        "Defendant/Respondent": modify(realpa[1].trim())
+    };
 }
 
 
-module.exports = { getCounsel, getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
+function getLongTitle(counsel) {
+    return concatWithVs(counsel["Plaintiff/Appellant"], counsel["Defendant/Respondent"]);
+}
+
+function modify(input) {
+    const regex = /\s*(?:(,)|\b(and)\b|\(|\)|\b(for)\b|\b(the)\b|\b(with)\b|\b(him)\b|\b(plaintiff)\b|\b(respondent)\b|\b(defendant)\b|\b(appellant)\b)\s*/i;
+    let result = [];
+    let split = input.split(regex);
+
+    for (var i = 0; i < split.length; i++) {
+        if (split[i] && split[i].length > 3 && !regex.test(split[i])) {
+            result.push(split[i].trim());
+        }
+    }
+    return result;
+}
+
+function concatWithVs(list1, list2) {
+    // Concatenate the first list with commas
+    const str1 = list1.join(", ");
+  
+    // Concatenate the second list with commas
+    const str2 = list2.join(", ");
+  
+    // Combine the two strings with "vs" and return the result
+    return str1 + " vs " + str2;
+  }
+
+
+module.exports = { getLongTitle, getCounsel, getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
