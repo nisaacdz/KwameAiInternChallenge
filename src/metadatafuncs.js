@@ -321,8 +321,9 @@ function getCounsel(s) {
     let begin = s.indexOf('COUNSEL');
 
     if (begin == -1) return {
-        "Plaintiff/Appellant": [],
-        "Defendant/Respondent": []
+        "fulltitle": "",
+        "plaintiff": [],
+        "defendant": []
     };
 
     let str = s.substring(begin + 7, begin + 500);
@@ -336,7 +337,24 @@ function getCounsel(s) {
 
     let content = str.substring(0, pos);
 
-    console.log(content);
+    content = content.toLowerCase();
+    let split = /for\s+the\s+(plaintiff|appellant|defendant|respondent)/;
+    let pa = content.split(split);
+
+    if (pa.length < 2) return {
+        "fulltitle": "",
+        "plaintiff": [],
+        "defendant": []
+    };
+
+    let ftitle = pa[0].trim() + " vs " + pa[1].trim();
+    console.log(ftitle);
+    /////GIANT TODO HERE
+    ////GIANT TODO HERE
+    //TODO
+    ////GIATNT TODO HERE
+    ////TODO
+    ///GIANT TODO HERE
 }
 
 
