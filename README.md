@@ -30,5 +30,3 @@ The procedure folder may be ignored and only contains information that is no lon
 - Alternatively, move the test files to the input directory and update the lawfileUrls variable.
 - Navigate the terminal to src folder.
 - Run the command `node index.js`
-
-Overall, this project aims to efficiently extract information from PDFs and generate relevant metadata and files. The code is organized in a clear and concise manner, making it easy to navigate and understand.
