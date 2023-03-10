@@ -1,8 +1,11 @@
 const pdfjsLib = require('pdfjs-dist');
 let fs = require('fs')
 
-function writeToTextFile(path, content) {
-    fs.writeFile();
+function appendToFile(filePath, contents) {
+    fs.appendFile(filePath, contents, err => {
+        if (err) throw err;
+        console.log('Contents appended to file.');
+    });
 }
 
 function readFileToText(path) {
@@ -36,22 +39,23 @@ async function extractTextFromPDF(pdfPath) {
     return fullText;
 }
 
-async function extractTextFromScannedPDF(path) {
-    
+async function extractTextFromScannedPDF(pdfUrl) {
+    const pdfDoc = await pdfjsLib.getDocument(pdfUrl).promise;
+    const pdfPage = await pdfDoc.getPage(pageNum);
+    const textContent = await pdfPage.getTextContent();
+    const text = textContent.items.map(item => item.str).join('');
+    return text;
 }
 
 
 async function isScannedPDF(pdfUrl) {
-    try {
-        const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
-        const page = await pdf.getPage(1);
-        const textContent = await page.getTextContent();
-        return textContent.items.length == 0;
-    } catch (err) {
-        return false;
-    }
+    const pdfDoc = await pdfjsLib.getDocument(pdfUrl).promise;
+    const pdfPage = await pdfDoc.getPage(1);
+    const textContent = await pdfPage.getTextContent();
+    const text = textContent.items.map(item => item.str).join('');
+    return text.length === 0;
 }
 
 
-module.exports = { extractTextFromPDF, readFileToText, isScannedPDF };
+module.exports = { extractTextFromPDF, readFileToText, isScannedPDF, extractTextFromScannedPDF, appendToFile };
 

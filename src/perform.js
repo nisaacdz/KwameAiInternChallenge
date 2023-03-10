@@ -3,24 +3,26 @@ const funcs = require('./metadatafuncs');
 const Reader = require('./iofxns');
 const fs = require('fs');
 
-const ERRORLOGFILE = "";
-const INFOLOGFILE = "";
+const errorlogpath = "../output/ERRORLOG.txt";
+const infologpath = "../output/INFOLOG.txt"
 
 
 function kwamilize(path) {
-    const srcName = path.substring();
-    const dstName = "";
     Reader.extractTextFromPDF(path).then((text) => {
         let obj = new MetaData();
-        fillMetaData(obj, text);
-        
+        let inputFileName = extractFileName(path);
+        let result = fillMetaData(obj, text);
+        let namepref = formulateName(result);
+
+        fillErrLog(obj, inputFileName, namepref + "metadata.json");
+        fillInfoLog(obj, inputFileName, namepref + "metadata.json");
 
         let jsonstr = JSON.stringify(obj, null, 4);
-    
-        fs.writeFile('../output.json', jsonstr, (err) => {
-            if (err) throw err;
-            console.log('File has been updated with new content.');
-        });
+
+        constructMetaData(jsonstr, namepref + "metadata.json");
+        constructTechnicalTextFile(text, namepref + "technical.txt");
+        constructPreviewMdFile(text, namepref + "preview.md");
+        construct
     });
 }
 
@@ -38,15 +40,58 @@ function fillMetaData(obj, content) {
     let proceedings = funcs.getNatureOfProceedings(content);
     let counsel = funcs.getCounsel(content);
     let long_title = funcs.getLongTitle(counsel);
+    let short_title = parties[0] + " vs " + parties[1];
+    let case_no = funcs.getCaseNo(content);
+    let timestamp = judgement["date"];
 
     obj.setPartiesOfSuit(parties[0], parties[1]);
     obj.setCasesReferredTo(refcases);
     obj.setSource(src);
     obj.setJudgement(judgement);
     obj.setJudges(judges);
-    obj.setTitle(parties[0] + " vs " + parties[1], long_title);
+    obj.setTitle(short_title, long_title);
     obj.setCourt(court);
     obj.setHeadNotes(headnotes);
     obj.setNatureOfProceedings(proceedings);
     obj.setCounsel(counsel);
+
+    return [short_title, case_no, timestamp];
 }
+
+function formulateName(list) {
+    return list.join('_');
+}
+
+function extractFileName(url) {
+    const lastPathComponent = url.split('/').pop();
+    const fileName = lastPathComponent.includes('.')
+        ? lastPathComponent
+        : null;
+    return fileName;
+}
+
+
+function fillErrLog(obj, inputFileName, outputfilename) {
+
+}
+
+function fillInfoLog(obj, inputFileName, outputfilename) {
+
+}
+
+function constructMetaData(content, filename) {
+    fs.writeFile('../output/' + filename, content, (err) => {
+        if (err) throw err;
+        console.log('File has been updated with new content.');
+    });
+}
+
+function constructTechnicalTextFile(content, filename) {
+
+}
+
+function constructPreviewMdFile(content, filename) {
+
+}
+
+module.exports = { kwamilize };

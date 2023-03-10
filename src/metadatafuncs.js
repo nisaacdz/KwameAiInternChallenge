@@ -353,7 +353,7 @@ function getCounsel(s) {
         "Plaintiff/Appellant": [],
         "Defendant/Respondent": []
     };
-    
+
     return {
         "Plaintiff/Appellant": modify(realpa[0].trim()),
         "Defendant/Respondent": modify(realpa[1].trim())
@@ -363,6 +363,10 @@ function getCounsel(s) {
 
 function getLongTitle(counsel) {
     return concatWithVs(counsel["Plaintiff/Appellant"], counsel["Defendant/Respondent"]);
+}
+
+function getCaseNo(s) {
+
 }
 
 function modify(input) {
@@ -381,13 +385,13 @@ function modify(input) {
 function concatWithVs(list1, list2) {
     // Concatenate the first list with commas
     const str1 = list1.join(", ");
-  
+
     // Concatenate the second list with commas
     const str2 = list2.join(", ");
-  
+
     // Combine the two strings with "vs" and return the result
     return str1 + " vs " + str2;
-  }
+}
 
 
-module.exports = { getLongTitle, getCounsel, getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
+module.exports = { getCaseNo, getLongTitle, getCounsel, getNatureOfProceedings, getHeadNotes, getDate, getCourt, getJudgement, getJudges, getCasesReferredTo, getSource, getParties };
