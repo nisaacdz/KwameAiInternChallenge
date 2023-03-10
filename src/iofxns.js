@@ -36,5 +36,22 @@ async function extractTextFromPDF(pdfPath) {
     return fullText;
 }
 
+async function extractTextFromScannedPDF(path) {
+    
+}
 
-module.exports = { extractTextFromPDF, readFileToText };
+
+async function isScannedPDF(pdfUrl) {
+    try {
+        const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
+        const page = await pdf.getPage(1);
+        const textContent = await page.getTextContent();
+        return textContent.items.length == 0;
+    } catch (err) {
+        return false;
+    }
+}
+
+
+module.exports = { extractTextFromPDF, readFileToText, isScannedPDF };
+
