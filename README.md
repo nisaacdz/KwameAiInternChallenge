@@ -21,10 +21,14 @@ The test folder is for testing various features of the program.
 The input folder may contain the files to be executed.
 
 The output folder contains all newly created files.
+
+The procedure folder may be ignored and only contains information that is no longer relevant
  
 
 ## Instructions for Use:
 - Open the index.js file and update the lawfileUrls variable with the relevant file urls.
 - Alternatively, move the test files to the input directory and update the lawfileUrls variable.
+- Navigate the terminal to src folder.
+- Run the command `node index.js`
 
 Overall, this project aims to efficiently extract information from PDFs and generate relevant metadata and files. The code is organized in a clear and concise manner, making it easy to navigate and understand.
