@@ -1,0 +1,13 @@
+INPUT FILE: V2.PDF
+OUTPUT FILE: TUFFUOR  VS  ATTORNEY-GENERAL_GLR 637_23 SEPTEMBER 1980METADATA.JSON
+1. booksReferredTo: NOT FOUND
+2. caseId.number: NOT FOUND
+3. caseId.type: NOT FOUND
+4. editorialNote: MISSING
+5. indices: NOT FOUND
+6. judgement.data: NOT FOUND
+7. lawReportsCitations: NOT FOUND
+8. mediaNeutralCitation: MISSING
+9. presidingJudge: NOT FOUND
+10. statutesReferredTo: NOT FOUND
+

@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const content = fs.readFileSync('../sample.txt', 'utf-8');
 
-testLongTitle();
+testCaseNo();
 
 function testCasesReferredTo() {
     let result = funcs.getCasesReferredTo(content);
@@ -49,6 +49,14 @@ function testHeadNotes() {
 function testCounsel() {
     let result = funcs.getCounsel(content);
     console.log(result)
+}
+
+function testCaseNo() {
+    let result = funcs.getCaseNo(content);
+    const lastBracketIndex = result.lastIndexOf(']');
+    const trimmedStr = result.substring(0, lastBracketIndex + 1).trim();
+    
+   return trimmedStr;
 }
 
 
