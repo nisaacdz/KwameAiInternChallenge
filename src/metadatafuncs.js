@@ -365,9 +365,23 @@ function getLongTitle(counsel) {
     return concatWithVs(counsel["Plaintiff/Appellant"], counsel["Defendant/Respondent"]);
 }
 
-function getCaseNo(s) {
+function getCaseNo(content) {
+    let search = content.substring(0, Math.min(content.length, 300));
+    const regex = /[[0-9\s-]+][0-9\s]*[a-zA-Z]+\s+[0-9\s]*\s/;
+    let result = search.match(regex);
+    
+    if (!result) {
+        return "";
+    }
 
+    let temp = result[0].trim();
+
+    const lastBracketIndex = temp.lastIndexOf(']');
+    const trimmedStr = temp.substring(lastBracketIndex + 1).trim();
+    
+   return trimmedStr;
 }
+
 
 function modify(input) {
     const regex = /\s*(?:(,)|\b(and)\b|\(|\)|\b(for)\b|\b(the)\b|\b(with)\b|\b(him)\b|\b(plaintiff)\b|\b(respondent)\b|\b(defendant)\b|\b(appellant)\b)\s*/i;

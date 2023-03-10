@@ -8,7 +8,7 @@ const infologpath = "../output/INFOLOG.txt"
 
 
 function kwamilize(path) {
-    Reader.extractTextFromPDF(path).then((text) => {
+    Reader.extractPDFText(path).then((text) => {
         let obj = new MetaData();
         let inputFileName = extractFileName(path);
         try {
@@ -23,6 +23,7 @@ function kwamilize(path) {
             constructTechnicalTextFile(text, namepref + "technical.txt");
             constructPreviewMdFile(text, namepref + "preview.md");
         } catch (error) {
+            console.log(inputFileName);
             fillErrLog(inputFileName, error);
         }
     });
@@ -44,7 +45,6 @@ function fillMetaData(obj, content) {
     let long_title = funcs.getLongTitle(counsel);
     let short_title = parties[0] + " vs " + parties[1];
     let case_no = funcs.getCaseNo(content);
-    let timestamp = judgement["date"];
 
     obj.setPartiesOfSuit(parties[0], parties[1]);
     obj.setCasesReferredTo(refcases);
@@ -57,10 +57,13 @@ function fillMetaData(obj, content) {
     obj.setNatureOfProceedings(proceedings);
     obj.setCounsel(counsel);
 
-    return [short_title, case_no, timestamp];
+    return [short_title, case_no, date];
 }
 
 function formulateName(list) {
+    if (!list) {
+        return "";
+    }
     return list.join('_');
 }
 
@@ -75,8 +78,8 @@ function extractFileName(url) {
 
 function fillErrLog(filename, error) {
     let content = [];
-    content.push(filename.toUpperCase + '\n');
-    content.push(JSON.stringify(error));
+    content.push(filename.toUpperCase() + '\n');
+    content.push(error.message);
     content.push('\n');
 
     let strcontent = content.join('\n');
@@ -218,8 +221,15 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
 
 
 function constructMetaData(content, filename) {
-    fs.writeFile('../output/' + filename, content, (err) => {
-        if (err) throw err;
+    let outputDir = "../output/";
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir);
+    }
+    fs.writeFile(outputDir + filename, content, (err) => {
+        if (err) {
+            console.log("error here");
+            throw err;
+        }
         console.log('File has been updated with new content.');
     });
 }

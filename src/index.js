@@ -8,7 +8,7 @@ function performChallenge(urls) {
         try{
             solver.kwamilize(urls[i])
         } catch(error) {
-            continue;
+            console.log(error)
         }
     }
 }

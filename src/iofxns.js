@@ -1,5 +1,6 @@
 const pdfjsLib = require('pdfjs-dist');
 let fs = require('fs')
+const Tesseract = require('tesseract.js');
 
 function appendToFile(filePath, contents) {
     fs.appendFile(filePath, contents, err => {
@@ -12,8 +13,26 @@ function readFileToText(path) {
     return fs.readFileSync(path, 'utf8');
 }
 
-// Define a function to extract text from a PDF file
-async function extractTextFromPDF(pdfPath) {
+
+async function extractPDFText(pdfPath) {
+    const isScanned = await isPDFScanned(pdfPath);
+
+    if (isScanned) {
+        return extractScannedPDFText(pdfPath);
+    } else {
+        return extractUnScannedPDFText(pdfPath);
+    }
+}
+
+async function isPDFScanned(pdfPath) {
+    const pdfDoc = await pdfjsLib.getDocument(pdfPath).promise;
+    const pdfPage = await pdfDoc.getPage(1);
+    const textContent = await pdfPage.getTextContent();
+    const text = textContent.items.map(item => item.str).join('');
+    return text.length === 0;
+}
+
+async function extractUnScannedPDFText(pdfPath) {
     // Load the PDF file
     const loadingTask = pdfjsLib.getDocument(pdfPath);
 
@@ -39,23 +58,41 @@ async function extractTextFromPDF(pdfPath) {
     return fullText;
 }
 
-async function extractTextFromScannedPDF(pdfUrl) {
-    const pdfDoc = await pdfjsLib.getDocument(pdfUrl).promise;
-    const pdfPage = await pdfDoc.getPage(pageNum);
-    const textContent = await pdfPage.getTextContent();
-    const text = textContent.items.map(item => item.str).join('');
-    return text;
+async function extractScannedPDFText(pdfUrl) {
+    // Load PDF document
+  const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
+
+  // Initialize variables
+  let pageNum = 1;
+  let numPages = pdf.numPages;
+  let text = '';
+
+  // Loop through each page of PDF
+  while (pageNum <= numPages) {
+    // Get page
+    const page = await pdf.getPage(pageNum);
+
+    // Render page to canvas
+    const viewport = page.getViewport({scale: 1.5});
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+    await page.render({canvasContext: ctx, viewport}).promise;
+
+    // Extract text from canvas using OCR
+    const {data: {text: pageText}} = await Tesseract.recognize(canvas.toDataURL());
+
+    // Concatenate page text to overall text
+    text += pageText + ' ';
+
+    // Increment page number
+    pageNum++;
+  }
+
+  // Return extracted text
+  return text;
 }
 
-
-async function isScannedPDF(pdfUrl) {
-    const pdfDoc = await pdfjsLib.getDocument(pdfUrl).promise;
-    const pdfPage = await pdfDoc.getPage(1);
-    const textContent = await pdfPage.getTextContent();
-    const text = textContent.items.map(item => item.str).join('');
-    return text.length === 0;
-}
-
-
-module.exports = { extractTextFromPDF, readFileToText, isScannedPDF, extractTextFromScannedPDF, appendToFile };
+module.exports = { extractPDFText, readFileToText, appendToFile };
 
