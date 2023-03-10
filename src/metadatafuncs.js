@@ -203,7 +203,7 @@ function getCourt(s) {
         return {
             "name": trim(vals[vals.length - 1]).trim(),
             "location": {
-                "city": null,
+                "city": "",
                 "country": "GHANA"
             }
         };
@@ -398,10 +398,10 @@ function modify(input) {
 
 function concatWithVs(list1, list2) {
     // Concatenate the first list with commas
-    const str1 = list1.join(", ");
+    const str1 = list1 ? list1.join(", "): "";
 
     // Concatenate the second list with commas
-    const str2 = list2.join(", ");
+    const str2 = list2 ? list2.join(", "): "";
 
     // Combine the two strings with "vs" and return the result
     return str1 + " vs " + str2;

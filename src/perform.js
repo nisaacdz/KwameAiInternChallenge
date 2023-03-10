@@ -13,17 +13,17 @@ function kwamilize(path) {
         let inputFileName = extractFileName(path);
         try {
             let result = fillMetaData(obj, text);
-            let namepref = formulateName(result);
-
+            
             let jsonstr = JSON.stringify(obj, null, 4);
+            let namepref = formulateName(result);
+            constructMetaData(jsonstr, namepref + "metadata.json");
 
             fillInfoLog(obj, inputFileName, namepref + "metadata.json");
 
-            constructMetaData(jsonstr, namepref + "metadata.json");
+            
             constructTechnicalTextFile(text, namepref + "technical.txt");
             constructPreviewMdFile(text, namepref + "preview.md");
         } catch (error) {
-            console.log(inputFileName);
             fillErrLog(inputFileName, error);
         }
     });
@@ -101,11 +101,11 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         content.push(`${i++}. source: MISSING`);
     }
 
-    if (obj.booksReferredTo.length === 0) {
+    if (!obj.booksReferredTo || obj.booksReferredTo.length === 0) {
         content.push(`${i++}. booksReferredTo: NOT FOUND`);
     }
 
-    if (obj.casesReferredTo.length === 0) {
+    if (!obj.casesReferredTo || obj.casesReferredTo.length === 0) {
         content.push(`${i++}. casesReferredTo: NOT FOUND`);
     }
 
@@ -130,11 +130,11 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         }
     }
 
-    if (!obj.counsel["Plaintiff/Appellant"].length || !obj.counsel["Defendant/Respondent"].length) {
-        if (!obj.counsel["Plaintiff/Appellant"].length) {
+    if (!obj.counsel["Plaintiff/Appellant"] || !obj.counsel["Defendant/Respondent"]) {
+        if (!obj.counsel["Plaintiff/Appellant"]) {
             content.push(`${i++}. counsel.Plaintiff/Appellant: NOT FOUND`);
         }
-        if (!obj.counsel["Defendant/Respondent"].length) {
+        if (!obj.counsel["Defendant/Respondent"]) {
             content.push(`${i++}. counsel.Defendant/Respondent: NOT FOUND`);
         }
     }
@@ -143,11 +143,11 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         content.push(`${i++}. editorialNote: MISSING`);
     }
 
-    if (obj.headNotes.length === 0) {
+    if (!obj.headNotes || obj.headNotes.length === 0) {
         content.push(`${i++}. headNotes: NOT FOUND`);
     }
 
-    if (obj.indices.length === 0) {
+    if (!obj.indices.length || obj.indices.length === 0) {
         content.push(`${i++}. indices: NOT FOUND`);
     }
 
@@ -166,11 +166,11 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         }
     }
 
-    if (obj.judges.length === 0) {
+    if (!obj.judges || obj.judges.length === 0) {
         content.push(`${i++}. judges: NOT FOUND`);
     }
 
-    if (obj.lawReportsCitations.length === 0) {
+    if (!obj.lawReportsCitations || obj.lawReportsCitations.length === 0) {
         content.push(`${i++}. lawReportsCitations: NOT FOUND`);
     }
 
@@ -186,17 +186,17 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         content.push(`${i++}. presidingJudge: NOT FOUND`);
     }
 
-    if (obj.partiesOfSuit["Plaintiff/Appellant"].length === 0 || obj.partiesOfSuit["Defendant/Respondent"].length === 0) {
-        if (obj.partiesOfSuit["Plaintiff/Appellant"].length === 0) {
+    if (!obj.partiesOfSuit["Plaintiff/Appellant"]|| !obj.partiesOfSuit["Defendant/Respondent"]) {
+        if (!obj.partiesOfSuit["Plaintiff/Appellant"]) {
             content.push(`${i++}. partiesOfSuit.Plaintiff/Appellant: NONE FOUND`);
         }
 
-        if (obj.partiesOfSuit["Defendant/Respondent"].length === 0) {
+        if (!obj.partiesOfSuit["Defendant/Respondent"]) {
             content.push(`${i++}. partiesOfSuit.Defendant/Respondent: NONE FOUND`);
         }
     }
 
-    if (obj.statutesReferredTo.length === 0) {
+    if (!obj.statutesReferredTo || obj.statutesReferredTo.length === 0) {
         content.push(`${i++}. statutesReferredTo: NOT FOUND`);
     }
 
