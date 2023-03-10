@@ -111,7 +111,7 @@ function getJudgement(date) {
 
 
 function getSource(s) {
-    return "Ghana Law Reports";
+    return "lawsghana.com";
 }
 
 

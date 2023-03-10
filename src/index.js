@@ -1,7 +1,14 @@
-const lawfileUrls = [];
-performChallenge(lawfileUrls);
+const lawfileUrls = ["../input/v1.pdf", "../input/v2.pdf"];
 const solver = require('./perform');
 
+performChallenge(lawfileUrls);
+
 function performChallenge(urls) {
-    urls.forEach(url => solver.kwamilize(url));
+    for (var i = 0; i < urls.length; i++) {
+        try{
+            solver.kwamilize(urls[i])
+        } catch(error) {
+            continue;
+        }
+    }
 }
