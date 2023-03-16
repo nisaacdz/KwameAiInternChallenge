@@ -32,4 +32,4 @@ The procedure folder may be ignored and only contains information that is no lon
 - Run the command `node index.js`
 
 ### Footnote
-Consider checking out my open source project [blockify](https://github.com/nisaacdz/blockify) and [math-rust](https://github.com/nisaacdz/math-rust) for your possible contributions.
+Consider checking out my open source project [blockify](https://github.com/nisaacdz/blockify) and [num_rust](https://github.com/nisaacdz/num_rust)
