@@ -1,4 +1,4 @@
-const lawfileUrls = ["../input/v1.pdf", "../input/v2.pdf"];
+const lawfileUrls = ["../input/v3.pdf"];
 const solver = require('./perform');
 
 performChallenge(lawfileUrls);

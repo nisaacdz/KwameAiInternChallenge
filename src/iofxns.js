@@ -1,6 +1,8 @@
 const pdfjsLib = require('pdfjs-dist');
 let fs = require('fs')
 const Tesseract = require('tesseract.js');
+const { execSync } = require('child_process');
+const pdf2img = require('pdf-img-convert');
 
 function appendToFile(filePath, contents) {
     fs.appendFile(filePath, contents, err => {
@@ -24,12 +26,14 @@ async function extractPDFText(pdfPath) {
     }
 }
 
-async function isPDFScanned(pdfPath) {
-    const pdfDoc = await pdfjsLib.getDocument(pdfPath).promise;
-    const pdfPage = await pdfDoc.getPage(1);
-    const textContent = await pdfPage.getTextContent();
-    const text = textContent.items.map(item => item.str).join('');
-    return text.length === 0;
+async function isPDFScanned(filePath) {
+    const thresholdSize = 600000; // Set threshold size to 600KB
+    const stats = fs.statSync(filePath);
+    if (stats.size > thresholdSize) {
+        return true; // PDF is scanned
+    } else {
+        return false; // PDF is digital
+    }
 }
 
 async function extractUnScannedPDFText(pdfPath) {
@@ -58,40 +62,39 @@ async function extractUnScannedPDFText(pdfPath) {
     return fullText;
 }
 
-async function extractScannedPDFText(pdfUrl) {
-    // Load PDF document
-  const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
+async function extractScannedPDFText(filePath) {
+    // Convert the PDF to PNG images using pdf-img-convert
+    const imagesDir = './temp/';
+    if (!fs.existsSync(imagesDir)) {
+        fs.mkdirSync(imagesDir);
+    }
+    let pages = await pdf2img.convert(filePath);
+    console.log("saving");
+    for (i = 0; i < pages.length; i++) {
+        fs.writeFile(imagesDir + "output" + (i + 1) + ".png", pages[i], function (error) {
+            if (error) { console.error("Error: " + error); }
+        }); //writeFile
+    }
 
-  // Initialize variables
-  let pageNum = 1;
-  let numPages = pdf.numPages;
-  let text = '';
+    // Extract text from each PNG image using Tesseract.js
+    const pngFiles = fs.readdirSync(imagesDir).filter(file => file.endsWith('.png'));
+    const textArray = await Promise.all(pngFiles.map(async pngFile => {
+        const imagePath = `${imagesDir}/${pngFile}`;
+        const { data: { text } } = await Tesseract.recognize(imagePath);
+        return text.trim();
+    }));
 
-  // Loop through each page of PDF
-  while (pageNum <= numPages) {
-    // Get page
-    const page = await pdf.getPage(pageNum);
+    // Join the text from each page into a single string
+    const text = textArray.join('');
 
-    // Render page to canvas
-    const viewport = page.getViewport({scale: 1.5});
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-    await page.render({canvasContext: ctx, viewport}).promise;
+    // Remove the temporary PNG images
+    fs.readdirSync(imagesDir).forEach(file => {
+        fs.unlinkSync(`${imagesDir}/${file}`);
+    });
 
-    // Extract text from canvas using OCR
-    const {data: {text: pageText}} = await Tesseract.recognize(canvas.toDataURL());
+    console.log(text);
 
-    // Concatenate page text to overall text
-    text += pageText + ' ';
-
-    // Increment page number
-    pageNum++;
-  }
-
-  // Return extracted text
-  return text;
+    return text;
 }
 
 module.exports = { extractPDFText, readFileToText, appendToFile };

@@ -82,7 +82,7 @@ function fillErrLog(filename, error) {
     content.push(error.message);
     content.push('\n');
 
-    let strcontent = content.join('\n');
+    let strcontent = content.join('');
     fs.appendFile(errorlogpath, strcontent, (err) => {
         if (err) throw err;
         console.log('The string was appended to the file!');
