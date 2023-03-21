@@ -73,7 +73,7 @@ async function extractScannedPDFText(filePath) {
     // Process each page separately
     for (var i = 0; i < pages.length; i++) {
         const { data: { text } } = await Tesseract.recognize(pages[i]);
-        console.log("page " + (i + 1) + " of " + (pages.length) + " OCRed");
+        console.log("page " + (i + 1) + " of " + (pages.length) + " OCR'ed");
         textArray.push(text);
     }
 

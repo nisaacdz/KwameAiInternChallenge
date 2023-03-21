@@ -14,14 +14,14 @@ function kwamilize(path) {
         let inputFileName = extractFileName(path);
         try {
             let result = fillMetaData(obj, text);
-            
+
             let jsonstr = JSON.stringify(obj, null, 4);
             let namepref = formulateName(result);
             constructMetaData(jsonstr, namepref + "metadata.json");
 
             fillInfoLog(obj, inputFileName, namepref + "metadata.json");
 
-            
+
             constructTechnicalTextFile(text, namepref + "technical.txt");
             constructPreviewMdFile(text, namepref + "preview.md");
         } catch (error) {
@@ -32,22 +32,34 @@ function kwamilize(path) {
 
 
 function fillMetaData(obj, content) {
+    console.log('break1')
     let judges = funcs.getJudges(content);
+    console.log('break2')
     let parties = funcs.getParties(content);
-
+    console.log('break3')
     let refcases = funcs.getCasesReferredTo(content);
+    console.log('break4')
     let court = funcs.getCourt(content);
+    console.log('break5')
     let date = funcs.getDate(content);
+    console.log('break6')
     let src = funcs.getSource(content);
+    console.log('break7')
     let judgement = funcs.getJudgement(date);
+    console.log('break8')
     let headnotes = funcs.getHeadNotes(content);
+    console.log('break9')
     let proceedings = funcs.getNatureOfProceedings(content);
+    console.log('break10')
     let counsel = funcs.getCounsel(content);
+    console.log('break10')
     let long_title = funcs.getLongTitle(counsel);
+    console.log('break11')
     let short_title = "";
     if (parties.length > 1) {
         short_title = parties[0] + " vs " + parties[1];
     }
+    console.log('break12')
     let case_no = funcs.getCaseNo(content);
 
     if (parties.length > 1) {
@@ -126,14 +138,17 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         }
     }
 
-    if (!obj.court.name || !obj.court.location.city || !obj.court.location.country) {
+    if (!obj.court.name || !obj.court.location || !obj.court.location.city || !obj.court.location.country) {
         if (!obj.court.name) {
             content.push(`${i++}. court.name: NOT FOUND`);
         }
-        if (!obj.court.location.city) {
+
+        if (!obj.court.location) {
+            content.push(`${i++}. court.location: UNDEFINED`);
+        } else if (!obj.court.location.city) {
             content.push(`${i++}. court.location.city: NOT FOUND`);
         }
-        if (!obj.court.location.country) {
+        else if (!obj.court.location.country) {
             content.push(`${i++}. court.location.country: NOT FOUND`);
         }
     }
@@ -194,7 +209,7 @@ function fillInfoLog(obj, inputFileName, outputfilename) {
         content.push(`${i++}. presidingJudge: NOT FOUND`);
     }
 
-    if (!obj.partiesOfSuit["Plaintiff/Appellant"]|| !obj.partiesOfSuit["Defendant/Respondent"]) {
+    if (!obj.partiesOfSuit["Plaintiff/Appellant"] || !obj.partiesOfSuit["Defendant/Respondent"]) {
         if (!obj.partiesOfSuit["Plaintiff/Appellant"]) {
             content.push(`${i++}. partiesOfSuit.Plaintiff/Appellant: NONE FOUND`);
         }

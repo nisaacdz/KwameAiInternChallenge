@@ -148,11 +148,13 @@ function getParties(s) {
     // Matches Group of text + (either v, or vs, or v., or vs. ) + Another group of text
     const regex = /\s*.*\s+(v(?:s\.?|\.?)?)\s+.*\s*\n/g;
 
-    let matches = regex.exec(str)[0];
+    let res = regex.exec(str);
 
-    if (!matches) {
+    if (!res) {
         return [];
     }
+
+    let matches = res[0];
 
     matches = matches.trim();
 
