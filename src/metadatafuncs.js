@@ -11,6 +11,7 @@ function getDate(s) {
     const regex = /\s*[\s:;]*([a-z0-9\s]*)\s*\n/;
 
     const matches = str.match(regex);
+    if (!matches) return "";
     let result = matches[1];
 
     return result.trim()
@@ -268,7 +269,7 @@ function getHeadNotes(s) {
         begin += 200;
     }
 
-    end = Math.min(s.length, begin + 17000);
+    end = Math.min(s.length, begin + 10000);
 
 
     let str = s.substring(begin, end);

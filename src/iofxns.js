@@ -64,23 +64,25 @@ async function extractUnScannedPDFText(pdfPath) {
 
 async function extractScannedPDFText(filePath) {
     // Convert the PDF to PNG images using pdf-img-convert
-    const imagesDir = './temp/';
-    if (!fs.existsSync(imagesDir)) {
-        fs.mkdirSync(imagesDir);
-    }
-    let pages = await pdf2img.convert(filePath);
+    const pages = await pdf2img.convert(filePath);
 
-    // Extract text from each PNG image using Tesseract.js
-    const textArray = await Promise.all(pages.map(async page => {
-        const { data: { text } } = await Tesseract.recognize(page);
-        return text.trim();
-    }));
+    console.log('Reached line 69 of iofxns.js');
+
+    const textArray = [];
+
+    // Process each page separately
+    for (var i = 0; i < pages.length; i++) {
+        const { data: { text } } = await Tesseract.recognize(pages[i]);
+        console.log("page " + (i + 1) + " of " + (pages.length) + " OCRed");
+        textArray.push(text);
+    }
 
     // Join the text from each page into a single string
     const text = textArray.join('');
 
     return text;
 }
+
 
 
 module.exports = { extractPDFText, readFileToText, appendToFile };

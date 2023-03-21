@@ -2,6 +2,7 @@ let MetaData = require('./metadata');
 const funcs = require('./metadatafuncs');
 const Reader = require('./iofxns');
 const fs = require('fs');
+const { finished } = require('stream');
 
 const errorlogpath = "../output/ERRORLOG.txt";
 const infologpath = "../output/INFOLOG.txt"
@@ -43,10 +44,15 @@ function fillMetaData(obj, content) {
     let proceedings = funcs.getNatureOfProceedings(content);
     let counsel = funcs.getCounsel(content);
     let long_title = funcs.getLongTitle(counsel);
-    let short_title = parties[0] + " vs " + parties[1];
+    let short_title = "";
+    if (parties.length > 1) {
+        short_title = parties[0] + " vs " + parties[1];
+    }
     let case_no = funcs.getCaseNo(content);
 
-    obj.setPartiesOfSuit(parties[0], parties[1]);
+    if (parties.length > 1) {
+        obj.setPartiesOfSuit(parties[0], parties[1]);
+    }
     obj.setCasesReferredTo(refcases);
     obj.setSource(src);
     obj.setJudgement(judgement);
@@ -56,6 +62,8 @@ function fillMetaData(obj, content) {
     obj.setHeadNotes(headnotes);
     obj.setNatureOfProceedings(proceedings);
     obj.setCounsel(counsel);
+
+    console.log('Finished executing fillMetaData of perform.js');
 
     return [short_title, case_no, date];
 }
