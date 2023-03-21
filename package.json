@@ -1,0 +1,17 @@
+{
+  "name": "tempchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-img-convert": "^1.2.0",
+    "pdfjs-dist": "^3.4.120",
+    "tesseract.js": "^4.0.2"
+  }
+}
