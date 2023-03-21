@@ -29,5 +29,26 @@ The procedure folder may be ignored and only contains information that is no lon
 - Move the test files to the input directory and update the lawfileUrls variable.
 - Run the command `node index.js`
 
-### Footnote
-Consider checking out my open source project [blockify](https://github.com/nisaacdz/blockify) and [num_rust](https://github.com/nisaacdz/num_rust)
+### Note
+Cloning this repository and running it on `Windows Subsystem for Linux` produces the following error: 
+```
+node:internal/modules/cjs/loader:1361
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: /workspaces/KwameAiInternChallenge/node_modules/canvas/build/Release/canvas.node: invalid ELF header
+    at Module._extensions..node (node:internal/modules/cjs/loader:1361:18)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (/workspaces/KwameAiInternChallenge/node_modules/canvas/lib/bindings.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+```
+I have tested and confirmed its functionality in windows OS

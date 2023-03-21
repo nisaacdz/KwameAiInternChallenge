@@ -1,20 +1,2 @@
-INPUT FILE: V3.PDF
-OUTPUT FILE: __METADATA.JSON
-1. booksReferredTo: NOT FOUND
-2. caseId.number: NOT FOUND
-3. caseId.type: NOT FOUND
-4. court.name: NOT FOUND
-5. court.location: UNDEFINED
-6. editorialNote: MISSING
-7. headNotes: NOT FOUND
-8. indices: NOT FOUND
-9. judgement.data: NOT FOUND
-10. judgement.year: NOT FOUND
-11. judgement.month: NOT FOUND
-12. judgement.day: NOT FOUND
-13. lawReportsCitations: NOT FOUND
-14. mediaNeutralCitation: MISSING
-15. presidingJudge: NOT FOUND
-16. statutesReferredTo: NOT FOUND
-17. title.long: UNKNOWN ERROR
+
 
