@@ -1,0 +1,41 @@
+{
+    "source": "lawsghana.com",
+    "booksReferredTo": [],
+    "casesReferredTo": [
+        "COURT OF JUDICATURE"
+    ],
+    "caseId": {
+        "number": "",
+        "type": ""
+    },
+    "court": "",
+    "counsel": {
+        "Plaintiff/Appellant": [],
+        "Defendant/Respondent": []
+    },
+    "editorialNote": "",
+    "headNotes": [],
+    "indices": [],
+    "judgement": {
+        "date": "undefined-unknown-undefinedT00:00:00.000Z",
+        "year": null,
+        "month": "",
+        "day": null
+    },
+    "judges": [
+        "DOTSE JSC (PRESIDING)\nAMEGATCHER JSC\nPROF. KOTEY JSC\nOWUSU ("
+    ],
+    "lawReportsCitations": [],
+    "natureOfProceedings": "RT OF JUDICATURE",
+    "mediaNeutralCitation": "",
+    "presidingJudge": "",
+    "partiesOfSuit": {
+        "Plaintiff/Appellant": [],
+        "Defendant/Respondent": []
+    },
+    "statutesReferredTo": [],
+    "title": {
+        "long": "",
+        "short": " vs "
+    }
+}
