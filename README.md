@@ -26,9 +26,7 @@ The procedure folder may be ignored and only contains information that is no lon
  
 
 ## Instructions for Use:
-- Navigate the terminal to src folder.
-- Open the index.js file and update the lawfileUrls variable with the relevant file urls.
-- Alternatively, move the test files to the input directory and update the lawfileUrls variable.
+- Move the test files to the input directory and update the lawfileUrls variable.
 - Run the command `node index.js`
 
 ### Footnote
