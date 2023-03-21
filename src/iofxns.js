@@ -69,33 +69,19 @@ async function extractScannedPDFText(filePath) {
         fs.mkdirSync(imagesDir);
     }
     let pages = await pdf2img.convert(filePath);
-    console.log("saving");
-    for (i = 0; i < pages.length; i++) {
-        fs.writeFile(imagesDir + "output" + (i + 1) + ".png", pages[i], function (error) {
-            if (error) { console.error("Error: " + error); }
-        }); //writeFile
-    }
 
     // Extract text from each PNG image using Tesseract.js
-    const pngFiles = fs.readdirSync(imagesDir).filter(file => file.endsWith('.png'));
-    const textArray = await Promise.all(pngFiles.map(async pngFile => {
-        const imagePath = `${imagesDir}/${pngFile}`;
-        const { data: { text } } = await Tesseract.recognize(imagePath);
+    const textArray = await Promise.all(pages.map(async page => {
+        const { data: { text } } = await Tesseract.recognize(page);
         return text.trim();
     }));
 
     // Join the text from each page into a single string
     const text = textArray.join('');
 
-    // Remove the temporary PNG images
-    fs.readdirSync(imagesDir).forEach(file => {
-        fs.unlinkSync(`${imagesDir}/${file}`);
-    });
-
-    console.log(text);
-
     return text;
 }
+
 
 module.exports = { extractPDFText, readFileToText, appendToFile };
 
