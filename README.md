@@ -1,11 +1,6 @@
 # KwameAiInternChallenge
 Methodology:
 
-## Initial Thoughts:
-- Rust language was the preferred choice due to familiarity and usefulness for this kind of project.
-- JavaScript was used as an alternative since Rust was not allowed.
-
-
 ## Code Organization:
 All important codes for running the main script(index.js) are stored in the src folder.
 The src folder contains the following files:
